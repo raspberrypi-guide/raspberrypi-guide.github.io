@@ -29,7 +29,7 @@ twitter_username: jollewjolles
 github_username:  jollejolles
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
