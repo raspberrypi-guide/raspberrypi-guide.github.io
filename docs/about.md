@@ -7,5 +7,5 @@ nav_order: 2
 
 # About this website
 
-some text
+some more text
 {: .fs-4 .fw-300 }
