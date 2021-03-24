@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Raspberry Pi
+title: The Raspberry Pi
 nav_order: 1
 ---
 

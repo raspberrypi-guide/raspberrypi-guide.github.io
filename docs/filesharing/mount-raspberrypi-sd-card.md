@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mount Raspberry Pi SD card
+title: Mount Raspberry Pi SD-card
 parent: Filesharing
 nav_order: 4
 ---

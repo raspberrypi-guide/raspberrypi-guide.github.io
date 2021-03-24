@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Reduce power consumption
+title: Power consumption tricks
 parent: Electronics
 nav_order: 6
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Set-up a real-time clock
+title: Setting-up a real-time clock
 parent: Electronics
 nav_order: 2
 ---

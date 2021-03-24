@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SSH Connection
+title: Connecting via SSH
 parent: Networking
 nav_order: 1
 ---

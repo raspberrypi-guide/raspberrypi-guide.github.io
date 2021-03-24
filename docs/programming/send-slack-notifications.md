@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Send slack notification
+title: Send slack notifications
 parent: Programming
 nav_order: 7
 ---

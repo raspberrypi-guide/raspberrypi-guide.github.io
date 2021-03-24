@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VNC Connection
+title: Connecting via VNC
 parent: Networking
 nav_order: 2
 ---

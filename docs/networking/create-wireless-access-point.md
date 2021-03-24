@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wireless access point
+title: Create wireless access point
 parent: Networking
 nav_order: 7
 ---

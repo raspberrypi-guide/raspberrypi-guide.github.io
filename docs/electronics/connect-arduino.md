@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Connecting an Arduino
+title: Connect an Arduino
 parent: Electronics
 nav_order: 1
 ---

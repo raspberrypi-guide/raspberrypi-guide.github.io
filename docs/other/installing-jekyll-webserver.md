@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Installing Jekyll
+title: Installing Jekyll webserver
 parent: Other
 nav_order: 5
 ---

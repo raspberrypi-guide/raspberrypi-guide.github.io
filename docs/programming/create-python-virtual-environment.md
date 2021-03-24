@@ -18,7 +18,7 @@ Virtual environments are a great way to stay organised with your Python librarie
 {:toc}
 ---
 
-## Installing 
+## Installing
 First we need to install the virtual environments. To do so type in:
 
 ```

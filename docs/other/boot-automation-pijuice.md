@@ -49,7 +49,8 @@ With PiJuice we can easily schedule the Raspberry Pi to turn on automatically ac
 
 Click the boxes next to `Every day` and `Every hour`, click `Minutes period` below and type in `10`. Now make sure `Wakeup enabled` is ticked, click `Set Alarm`, and finally click `Apply`.
 
-[![PiJuice wakeup](/assets/images/pijuic-wakeup.jpg?style=centerimgmed)](/assets/images/pijuic-wakeup.jgg).
+[![PiJuice wakeup](/assets/images/pijuic-wakeup.jpg?style=centerimgmed)](/assets/images/pijuic-wakeup.jg
+	g).
 
 With PiJuice there is no option to turn off the Raspberry Pi automatically, but we can set a timer and run a (Python) script to turn off the Raspberry Pi automatically after a set time, for example 3 minutes. We  also want to keep the Raspberry Pi running when it is not on Battery power.
 

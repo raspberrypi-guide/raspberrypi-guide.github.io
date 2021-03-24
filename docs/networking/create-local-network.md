@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Create local network
+title: Create a local network
 parent: Networking
 nav_order: 3
 ---
