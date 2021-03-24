@@ -4,6 +4,7 @@ title: Other
 nav_order: 9
 has_children: true
 permalink: /docs/other
+comments: false
 ---
 
 # Other guides

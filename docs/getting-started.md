@@ -4,6 +4,7 @@ title: Getting started
 nav_order: 4
 has_children: true
 permalink: /docs/gettingstarted
+comments: false
 ---
 
 # Getting started

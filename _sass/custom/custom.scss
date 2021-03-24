@@ -182,9 +182,13 @@ svg {
   height: 30px;
   padding-right:10px;
 }
-.site-button svg {
-  width: 2.5rem;
-  height: 2.5rem;
+.site-header svg {
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+}
+.search-label svg {
+  width: 1.75rem !important;
+  height: 1.75rem !important;
 }
 svg:hover {
   fill: #139073;
@@ -202,4 +206,7 @@ svg:hover {
   .side-bar, .site-nav {
       width: 300px;
   }
+}
+.fs-9 {
+  margin-top: -20px !important;
 }
