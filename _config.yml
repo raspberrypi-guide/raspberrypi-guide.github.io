@@ -19,5 +19,5 @@ search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
 footer_content: "If you use find any of the information provided on this website useful it would be great to <a href=\"http://raspberrypi-guide.github.io/contact\">hear from you</a> and please consider <a href=\"http://raspberrypi-guide.github.io/paper\">citing the paper</a>! All rights reserved &copy; 2021 Jolle Jolles. Website built using Jekyll and the <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a> theme.</a>"
- comments:
+comments:
    provider: disqus
