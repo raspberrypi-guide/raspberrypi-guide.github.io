@@ -4,6 +4,7 @@ gem "jekyll-remote-theme"
 gem "just-the-docs"
 gem "github-pages", group: :jekyll_plugins
 gem "activesupport", ">= 4.1.11"
+gem 'jekyll-seo-tag'
 
 group :jekyll_plugins do
   gem "jekyll-gist"

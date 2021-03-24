@@ -256,9 +256,10 @@ DEPENDENCIES
   jekyll-gist
   jekyll-include-cache
   jekyll-remote-theme
+  jekyll-seo-tag
   just-the-docs
   tzinfo (~> 1.2)
   tzinfo-data
 
 BUNDLED WITH
-   2.1.4
+   2.2.5

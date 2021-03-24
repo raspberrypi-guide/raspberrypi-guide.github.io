@@ -4,11 +4,8 @@ title: Home
 nav_order: -1
 permalink: /
 ---
-
-
-[![Raspberry Pi Logo](/assets/images/RPi-Logo.png?style=vsmallimgright)](http://raspberrypi.org)
-
-# The Raspberry Pi Guide for Scientists and anyone else
+# The Raspberry Pi Guide for scientists and anyone else!
+[![Raspberry Pi Logo](/assets/images/raspberrypi-guide-logonotext.png?style=titleimgright)](http://raspberrypi.org)
 {: .fs-9 }
 ---
 The Raspberry Pi is a widely popular and highly diverse, low-cost, single-board computer and a great research tool for scientists working in the biological sciences and other domains.

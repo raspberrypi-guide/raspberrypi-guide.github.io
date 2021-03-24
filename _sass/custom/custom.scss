@@ -25,6 +25,9 @@ table {border: 0px solid; border-spacing: 0px;}
 .negtable thead tr th {
   background-color: orange;
 }
+img {
+  max-widt: 100% !important;
+}
 img[src$="centerimgsmall"] {
   display:block;
   margin: 0 auto;
@@ -55,14 +58,16 @@ img[src$="smallimgright"]{
   padding-bottom:10px;
   padding-top:10px;
 }
-img[src$="vsmallimgright"]{
+img[src$="titleimgright"]{
   display:block;
-  float: right;
-  max-width: 100px;
-  max-height: 100px;
-  padding-left:10px;
-  padding-bottom:10px;
-  padding-top:10px;
+  position: absolute;
+  top: 6rem;
+  right:0rem;
+  max-width: 90px;
+  max-height: 150px;
+}
+.main-content h1:first-child {
+  padding-right:80px
 }
 img[src$="rpihandimg"]{
   float:right;
@@ -82,13 +87,7 @@ img[src$="rpihandimg"]{
   padding-top: 12px;
 }
 
-.side-bar, .site-nav {
-  #padding-right: 1rem !important;
-  width: 310px !important;
-}
-.main {
-  margin-left: 310px;
-}
+@media (min-width: 50rem) { .main {margin-left: 310px;} }
 
 a {
   color: #139073; /* #B42E4B; */
@@ -96,8 +95,14 @@ a {
 .nav-list-item {
   padding-right:0px;
 }
+/*
 .nav-list-item a {
   color: #000000;
+}
+*/
+
+.nav-list .nav-list-item .nav-list-link {
+  padding-left: 1.5rem;
 }
 
 .page-content a {
@@ -131,12 +136,70 @@ a:active, a:hover {
   padding:0px;
 }
 .site-header {
-  width: 310px;
-  padding: 0px 10px !Important;
+  padding: 0px 0px 0px 10px !important;
+  height: 70px !important;
+  max-height: 70px !important;
+  border-bottom:0px;
+}
+@media (min-width: 50rem) {
+.site-nav, .site-header, .site-footer {
+    width: 300px;
+  }
+}
+@media (min-width: 66.5rem) {
+.site-nav, .site-header, .site-footer {
+    width: 300px;
+  }
+}
+.main-header {
+  height: 55px
 }
 .main-content-wrap {
-  padding-top: 0px;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+}
+@media (min-width: 50rem) {
+  .main-content-wrap {
+    padding-bottom: 2rem;
+  }
 }
 .site-nav {
   padding-top: 2rem;
+}
+
+hr {
+  margin: 1rem 0px;
+}
+#socialicons {
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+}
+#socialicons a:not([class]) {
+  background-image: none;
+}
+svg {
+  width: 30px;
+  height: 30px;
+  padding-right:10px;
+}
+.site-button svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+svg:hover {
+  fill: #139073;
+}
+
+.side-bar {
+    width: 100%;
+}
+@media (min-width: 50rem) {
+  .side-bar, .site-nav {
+      width: 300px;
+  }
+}
+@media (min-width: 66.5rem) {
+  .side-bar, .site-nav {
+      width: 300px;
+  }
 }
