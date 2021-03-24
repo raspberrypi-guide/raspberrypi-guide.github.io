@@ -2,6 +2,7 @@
 layout: page
 title: FAQ
 nav_order: 10
+comments: false
 ---
 
 # Frequently Asked Questions
