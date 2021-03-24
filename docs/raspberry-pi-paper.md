@@ -2,6 +2,7 @@
 layout: page
 title: The paper
 nav_order: 2
+permalink: /the-paper
 ---
 
 # Paper

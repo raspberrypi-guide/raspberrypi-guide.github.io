@@ -3,6 +3,7 @@ layout: page
 title: Mounting an external drive
 parent: Filesharing
 nav_order: 2
+permalink: /filesharing/mounting-external-drive
 ---
 
 # Mounting an external drive

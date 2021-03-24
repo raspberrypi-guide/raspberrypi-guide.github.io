@@ -3,6 +3,7 @@ layout: page
 title: Convert .h264 videos with ffmpeg
 parent: Other
 nav_order: 9
+permalink: /other/convert-h264-ffmpeg
 ---
 
 # Installing FFmpeg on a Raspberry Pi with .h264 support

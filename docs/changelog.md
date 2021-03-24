@@ -3,6 +3,7 @@ layout: page
 title: Changelog
 nav_order: 13
 comments: false
+permalink: /changelog
 ---
 
 # Changelog

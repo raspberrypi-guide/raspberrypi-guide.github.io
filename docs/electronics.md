@@ -3,7 +3,7 @@ layout: page
 title: Electronics
 nav_order: 8
 has_children: true
-permalink: /docs/electronics
+permalink: /electronics
 comments: false
 ---
 

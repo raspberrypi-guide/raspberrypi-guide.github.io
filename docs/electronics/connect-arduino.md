@@ -3,6 +3,7 @@ layout: default
 title: Connect an Arduino
 parent: Electronics
 nav_order: 1
+permalink: /electronics/connect-arduino
 ---
 
 # Connecting an Arduino to the Raspberry Pi

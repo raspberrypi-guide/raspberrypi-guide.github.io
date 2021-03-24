@@ -3,7 +3,7 @@ layout: page
 title: Programming
 nav_order: 7
 has_children: true
-permalink: /docs/programming
+permalink: /programming
 comments: false
 ---
 

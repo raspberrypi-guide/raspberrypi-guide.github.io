@@ -13,7 +13,7 @@ The Raspberry Pi is a widely popular and highly diverse, low-cost, single-board 
 
 [![Raspberry Pi Review paper](/assets/images/jolles-et-al-frontpage.jpg?style=smallimgleft)](/assets/images/jolles-et-al-frontpage.jpg)
 
-This website accompanies the [preprint](http://) *Broad-scale Applications with the Raspberry Pi: A Review and Guide for Biologists* and provides a resource hub specifically aimed at scientists to provide guidance setting-up and integrating the Raspberry Pi in their work. A wide range of tutorials can be found via the menu on the left, as well as a [FAQ](docs/9-FAQ.html). Additional guides can be found on the website of the Raspberry Pi Foundation: [raspberrypi.org/documentation/](https://www.raspberrypi.org/documentation/) https://github.com/raspberrypi/documentation
+This website accompanies the [preprint](docs/raspberry-pi-paper.html) *Broad-scale Applications with the Raspberry Pi: A Review and Guide for Biologists* and provides a resource hub specifically aimed at scientists to provide guidance setting-up and integrating the Raspberry Pi in their work. A wide range of tutorials can be found via the menu on the left, as well as a [FAQ](docs/9-FAQ.html). Additional guides can be found on the website of the Raspberry Pi Foundation: [raspberrypi.org/documentation/](https://www.raspberrypi.org/documentation/) https://github.com/raspberrypi/documentation
 
 Currently the website hosts a total of XX guides, with more guides being added all the time. The best place to start is to follow the [Main Raspberry Pi guide](http://).
 

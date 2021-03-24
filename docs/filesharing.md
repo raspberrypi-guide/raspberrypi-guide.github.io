@@ -3,7 +3,7 @@ layout: page
 title: Filesharing
 nav_order: 6
 has_children: true
-permalink: /docs/filesharing
+permalink: /filesharing
 comments: false
 ---
 

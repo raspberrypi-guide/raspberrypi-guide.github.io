@@ -3,6 +3,7 @@ layout: page
 title: Create a local network
 parent: Networking
 nav_order: 3
+permalink: /networking/create-local-network
 ---
 
 # Create a local network

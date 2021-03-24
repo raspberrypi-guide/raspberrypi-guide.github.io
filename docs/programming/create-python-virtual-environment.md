@@ -3,6 +3,7 @@ layout: page
 title: Python virtual environment
 parent: Programming
 nav_order: 2
+permalink: /programming/create-python-virtual-environment
 ---
 
 # Create a Python virtual environment

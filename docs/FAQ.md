@@ -3,6 +3,7 @@ layout: page
 title: FAQ
 nav_order: 10
 comments: false
+permalink: /FAQ
 ---
 
 # Frequently Asked Questions

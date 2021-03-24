@@ -3,6 +3,7 @@ layout: page
 title: Run script on startup
 parent: Programming
 nav_order: 3
+permalink: /programming/run-script-on-boot
 ---
 
 # Run script on start-up on a Raspberry Pi

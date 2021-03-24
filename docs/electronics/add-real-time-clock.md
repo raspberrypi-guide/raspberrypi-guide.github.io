@@ -3,6 +3,7 @@ layout: page
 title: Setting-up a real-time clock
 parent: Electronics
 nav_order: 2
+permalink: /electronics/add-real-time-clock
 ---
 
 # Setting-up a real-time clock

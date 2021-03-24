@@ -3,6 +3,7 @@ layout: page
 title: Choosing your hardware
 parent: Getting started
 nav_order: 1
+permalink: /getting-started/choosing-raspberry-pi-hardware
 ---
 
 # Raspberry Pi hardware

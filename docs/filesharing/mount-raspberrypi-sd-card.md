@@ -3,6 +3,7 @@ layout: page
 title: Mount Raspberry Pi SD-card
 parent: Filesharing
 nav_order: 4
+permalink: /filesharing/mount-raspberry-pi-sd-card
 ---
 
 # Mounting the Raspberry Pi SD card

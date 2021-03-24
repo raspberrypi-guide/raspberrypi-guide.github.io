@@ -2,6 +2,7 @@
 layout: page
 title: Overview Guide
 nav_order: 3
+permalink: /overview-guide
 ---
 
 # Raspberry Pi Overview Guide

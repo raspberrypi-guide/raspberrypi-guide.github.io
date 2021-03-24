@@ -3,6 +3,7 @@ layout: page
 title: Using USB webcams
 parent: Electronics
 nav_order: 5
+permalink: /electronics/using-usb-webcams
 ---
 
 # Using USB webcams with the Raspberry Pi

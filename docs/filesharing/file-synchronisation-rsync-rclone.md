@@ -3,6 +3,7 @@ layout: default
 title: (Automatic) file synchronisation
 parent: Filesharing
 nav_order: 3
+permalink: /filesharing/file-synchronisation-rsync-rclone
 ---
 
 # File synchronisation with rsync and rclone

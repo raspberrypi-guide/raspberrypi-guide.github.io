@@ -3,6 +3,7 @@ layout: page
 title: First boot configuration
 parent: Getting started
 nav_order: 4
+permalink: /getting-started/raspberry-pi-configuration
 ---
 
 # First boot configuration

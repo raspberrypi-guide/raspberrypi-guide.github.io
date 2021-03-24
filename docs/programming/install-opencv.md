@@ -3,6 +3,7 @@ layout: page
 title: Installing OpenCV
 parent: Programming
 nav_order: 8
+permalink: /programming/install-opencv
 ---
 
 # Installing OpenCV

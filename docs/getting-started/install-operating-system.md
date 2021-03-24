@@ -3,6 +3,7 @@ layout: page
 title: Installing the operating system
 parent: Getting started
 nav_order: 2
+permalink: /getting-started/install-operating-system
 ---
 
 # Installing the operating system

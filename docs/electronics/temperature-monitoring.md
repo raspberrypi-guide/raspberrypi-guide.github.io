@@ -3,6 +3,7 @@ layout: page
 title: Temperature monitoring
 parent: Electronics
 nav_order: 3
+permalink: /electronics/temperature-monitoring
 ---
 
 # Temperature monitoring with the Raspberry Pi

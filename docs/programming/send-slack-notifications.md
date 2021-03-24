@@ -3,6 +3,7 @@ layout: page
 title: Send slack notifications
 parent: Programming
 nav_order: 7
+permalink: /programming/send-slack-notifications
 ---
 
 # Send notifications to slack

@@ -3,6 +3,7 @@ layout: page
 title: Connecting via VNC
 parent: Networking
 nav_order: 2
+permalink: /networking/connecting-via-VNC
 ---
 
 # Connecting to your Raspberry Pi via VNC

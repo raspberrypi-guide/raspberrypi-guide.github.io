@@ -3,6 +3,7 @@ layout: page
 title: Send text messages
 parent: Programming
 nav_order: 6
+permalink: /programming/send-sms-messages
 ---
 
 # Sending a text message (SMS) with your Raspberry Pi

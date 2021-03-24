@@ -3,6 +3,7 @@ layout: page
 title: Creating a headless set-up
 parent: Getting started
 nav_order: 3
+permalink: /getting-started/rasperry-pi-headless-setup
 ---
 
 # Creating a headless Raspberry Pi
