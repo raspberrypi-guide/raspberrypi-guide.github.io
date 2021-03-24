@@ -2,7 +2,6 @@
 layout: page
 title: Raspberry Pi
 nav_order: 1
-comments: false
 ---
 
 # Raspberry Pi
