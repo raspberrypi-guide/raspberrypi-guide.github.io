@@ -5,7 +5,7 @@ nav_order: -1
 permalink: /
 ---
 # The Raspberry Pi Guide for scientists and anyone else!
-[![Raspberry Pi Logo](/assets/images/raspberrypi-guide-logonotext.png?style=titleimgright)](http://raspberrypi.org)
+[![Raspberry Pi Logo](/assets/images/raspberrypi-guide-logonotext.jpg?style=titleimgright)](http://raspberrypi.org)
 {: .fs-9 }
 ---
 The Raspberry Pi is a widely popular and highly diverse, low-cost, single-board computer and a great research tool for scientists working in the biological sciences and other domains.
@@ -21,7 +21,7 @@ Currently the website hosts a total of XX guides, with more guides being added a
 
 
 ## About me
-[![Jolle workshop](/assets/images/jolle-raspberrypi-workshop.png?style=smallimgright)](/assets/images/jolle-raspberrypi-workshop.png)
+[![Jolle workshop](/assets/images/jolle-raspberrypi-workshop.jpg?style=smallimgright)](/assets/images/jolle-raspberrypi-workshop.jpg)
 I am Jolle Jolles, a researcher at the Center for Ecological Research and Forestry Applications ([CREAF](http://creaf.cat)). [My research](http://jollejolles.com) is focused on the role of individual heterogeneity in animal communities and its consequences across social and ecological scales. With my work I have been pushing novel empirical approaches to the study of animal behaviour and more broadly have been a strong proponent of the use of Raspberry Pi's and give workshops, maintain this website, and have written a [detailed review](http://) about the many potential research applications possible with the Raspberry Pi. Find out more about my research via my website: [http://jollejolles.com](http://jollejolles.com), on Twitter: [@jollewjolles](http://twitter.com/jollewjolles), or Instagram: [@jollethebiologist](http://instagram.com/jollethebiologist).
 
 

@@ -25,15 +25,15 @@ Secure Shell (SSH) enables you to access the command line of a Raspberry Pi from
 ## Enable SSH on the Raspberry Pi
 By default, SSH is disabled on the Raspberry Pi. It is however very easy to enable it, both using the Desktop and via the terminal. To enable SSH via the Desktop, go to the start menu > `Preferences` > `Raspberry Pi Configuration`.
 
-[![Desktop Configuration](/assets/images/desktop-configuration.png?style=centerimgmed)](/assets/images/desktop-configuration.png)
+[![Desktop Configuration](/assets/images/desktop-configuration.jpg?style=centerimgmed)](/assets/images/desktop-configuration.jpg)
 
 Now click on `Interfaces` and click `enable` next to SSH and click `OK`.
 
-[![SSH desktop configuration](/assets/images/desktop-ssh-configuration.png?style=centerimgmed)](/assets/images/desktop-ssh-configuration.png)
+[![SSH desktop configuration](/assets/images/desktop-ssh-configuration.jpg?style=centerimgmed)](/assets/images/desktop-ssh-configuration.jpg)
 
 To enable SSH via the terminal, open a terminal window and enter `sudo raspi-config`. Now with the arrows select `Interfacing Options`, navigate to and select `SSH`, choose `Yes`, and select `Ok`.
 
-[![SSH terminal configuration](/assets/images/terminal-ssh-configuration.png?style=centerimgmed)](/assets/images/terminal-ssh-configuration.png)
+[![SSH terminal configuration](/assets/images/terminal-ssh-configuration.jpg?style=centerimgmed)](/assets/images/terminal-ssh-configuration.jpg)
 
 If you want SSH to be enabled upon first boot, such as for a headless installation, follow [this short guide]().
 

@@ -21,7 +21,7 @@ By default, the IP-address of the Raspberry Pi is dynamic, meaning it changes as
 ## Get a static IP-address
 To get a static IP-address that works, it will need to be within the range provided by the router. We will therefore first need to find the router’s ip address. This tends to be written on the bottom of the router. If not, simply open a terminal window and type in `netstat -nr`.  Now look under `Gateway`:
 
-[![internet gateway](/assets/images/internet-gateway.png?style=centerimgmed)](/assets/images/internet-gateway.png)
+[![internet gateway](/assets/images/internet-gateway.jpg?style=centerimgmed)](/assets/images/internet-gateway.jpg)
 
 You can also use the command `ip route | grep default | awk '{print $3}'`.
 

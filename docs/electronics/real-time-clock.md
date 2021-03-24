@@ -39,7 +39,7 @@ sudo i2cdetect -y 1
 
 You should see ID `#68` show up:
 
-[![i2c sensor](/assets/images/i2c-sensor.png?style=centerimgmed)](/assets/images/i2c-sensor.png)
+[![i2c sensor](/assets/images/i2c-sensor.jpg?style=centerimgmed)](/assets/images/i2c-sensor.jpg)
 
 ## Using the RTC
 Before the RTC module can be used, we need to run a couple more commands. First, the RTC module must be loaded by the kernel:

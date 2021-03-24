@@ -35,7 +35,7 @@ Coming soon: wiring details
 
 When finished wiring the sensor, connect the black cable to a ground port on your GPIO, the red cable to the 3.3V port, and the yellow wire to GPIO4. The below image may help select the right pins:
 
-[![GPIO](/assets/images/gpio-numbers-pi2.png?style=centerimgmed)](/assets/images/gpio-numbers-pi2.png)
+[![GPIO](/assets/images/gpio-numbers-pi2.jpg?style=centerimgmed)](/assets/images/gpio-numbers-pi2.jpg)
 
 
 ## Load the sensor on your raspberry pi

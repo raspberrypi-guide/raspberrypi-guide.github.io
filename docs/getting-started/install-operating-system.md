@@ -28,14 +28,14 @@ On another computer,  download and install the Raspberry Pi installer ([raspberr
 
 Now plug in your SD card into the computer, select it using the *Choose storage* option, and click *write*. In a couple minutes your SD card with a freshly installed operating system should be finished!
 
-[![Raspberry Pi imager](/assets/images/raspberry-pi-imager.png?style=centerimgmed)](/assets/images/raspberry-pi-imager.png)
+[![Raspberry Pi imager](/assets/images/raspberry-pi-imager.jpg?style=centerimgmed)](/assets/images/raspberry-pi-imager.jpg)
 
 After the SD card is written, plug it in your Raspberry Pi and start it up by connecting power. Upon first boot in the Raspberry Pi OS Desktop environment, you will be guided through a short series of steps to help configure and update your system.
 
 ## Using Etcher
 [Etcher](https://etcher.io) is another way to install the operating system that tends to be slightly faster than the Raspberry Pi Imager tool. You can download it from [https://etcher.io](https://etcher.io), making sure to select the right version compatible with your operating system. Now set up the Etcher software and accept the license agreement and install.
 
-[![Balena Etcher](/assets/images/balena-etcher.png?style=centerimgmed)](/assets/images/balena-etcher.png)
+[![Balena Etcher](/assets/images/balena-etcher.jpg?style=centerimgmed)](/assets/images/balena-etcher.jpg)
 
 To install you will need to have an image file of the operating system on your computer. You can for example download the latest version of the Raspberry Pi OS [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit). Now Open Etcher, select the downloaded image file, select the SD card, and click *flash*. That's it.
 

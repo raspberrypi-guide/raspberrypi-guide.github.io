@@ -24,7 +24,7 @@ USB Webcams generally have inferior quality to the camera modules that connect t
 ## Setting up and using a USB webcam
 You can control a USB webcam both using bash in the terminal and with Python. First plugin the camera and see if the Raspberry Pi recognises it by entering `lsusb` in the terminal. It should show something like this:
 
-[![lsusb output](/assets/images/lsusb.png?style=centerimgmed)](/assets/images/lsusb.png)
+[![lsusb output](/assets/images/lsusb.jpg?style=centerimgmed)](/assets/images/lsusb.jpg)
 
 To command the camera in the terminal I suggest to use the `fswebcam` package. To install:
 

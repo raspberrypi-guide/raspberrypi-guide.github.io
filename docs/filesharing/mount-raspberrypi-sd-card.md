@@ -53,7 +53,7 @@ sudo ext4fuse /dev/disk2s2 /Users/me/RPi -o allow_other
 
 Now your SD card should be mounted on your Mac and give you access to all its files.
 
-[![mounted SD card](/assets/images/mounted-sd-card.png?style=centerimgmed)](/assets/images/mounted-sd-card.png)
+[![mounted SD card](/assets/images/mounted-sd-card.jpg?style=centerimgmed)](/assets/images/mounted-sd-card.jpg)
 
 To unmount again:
 
@@ -68,6 +68,6 @@ First download the free software at [http://Ext2Fsd.com](http://Ext2Fsd.com). Th
 
 In the program go to `Tools` > `Service Management` > `Start` before accessing Linux files. Also check *Mount all volumes in read-only mode* and *Assign drive letter automatically* boxes and click *Apply*.
 
-[![windows mounted SD card](/assets/images/windows-mounted-sd-card.png?style=centerimgmed)](/assets/images/windows-mounted-sd-card.png)
+[![windows mounted SD card](/assets/images/windows-mounted-sd-card.jpg?style=centerimgmed)](/assets/images/windows-mounted-sd-card.jpg)
 
 In the window, scroll down to see if the `ext4` partition of the SD card indeed has its own drive letter. If not, right-click the entry and add Drive letter. You should now be able to find your Raspberry Pi SD Card mounted in Windows Explorer.

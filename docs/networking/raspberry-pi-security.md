@@ -6,7 +6,6 @@ nav_order: 4
 ---
 
 # Increase the security of your Raspberry Pi
-
 {: .no_toc }
 
 When working with the Raspberry Pi, it is a good idea to keep the following security considerations in mind.

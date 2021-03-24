@@ -21,7 +21,7 @@ Slack is a great messaging tool that is increasingly used by research groups and
 ## Setting-up Slack Webhooks
 Incoming Webhooks are a great yet simple way to post messages from external sources to Slack using JSON payload. To do so, first make sure you have a slack workspace. Then in your workspace click on the `Apps +` icon to add a new application and search for `incoming webhook`. Click on `add`.
 
-[![Slack](/assets/images/slack.png?style=centerimgmed)](/assets/images/slack.png)
+[![Slack](/assets/images/slack.jpg?style=centerimgmed)](/assets/images/slack.jpg)
 
 You will now be redirected to the app directory page. Click here on the `Add to Slack` button to add the incoming WebHooks functionality. On the next page you have to provide a new configuration.
 

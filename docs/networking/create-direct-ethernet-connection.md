@@ -21,7 +21,7 @@ In some cases, one may want a more direct connection with the Raspberry Pi, such
 ## Direct connection with a Mac
 Connect your Mac and Raspberry Pi with an ethernet cable and power up your Raspberry Pi. Now on your Mac, go to `System Preferences` > `Sharing`, click on `Internet Sharing` and choose the Wi-Fi interface to share from, and below check the box next to your wired network interface, e.g. `USB 10/100/1000 LAN`. Now check the `On` checkbox next to Internet Sharing to enable it.
 
-[![Internet sharing](/assets/images/internet-sharing-mac.png?style=centerimgmed)](/assets/images/internet-sharing-mac.png)
+[![Internet sharing](/assets/images/internet-sharing-mac.jpg?style=centerimgmed)](/assets/images/internet-sharing-mac.jpg)
 
 Now open a terminal window and type in `ifconfig` to show the list of all interfaces. At the bottom there should be an interface called `bridge100`. The IP address that the Raspberry Pi will get is the the IP address shown here+1. For example if it shows `192.168.2.1` then your Raspberry Pi will have `192.168.2.2`.
 

@@ -18,7 +18,7 @@ You will likely be using the command line a lot when working with Raspberry Pi's
 {:toc}
 ---
 
-[![terminal window](/assets/images/terminal.png?style=centerimgmed)](/assets/images/terminal.png)
+[![terminal window](/assets/images/terminal.jpg?style=centerimgmed)](/assets/images/terminal.jpg)
 
 
 ## Terminal control

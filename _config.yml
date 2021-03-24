@@ -14,7 +14,7 @@ plugins:
   - jekyll-sitemap
 include:
   - _docs
-logo: "/assets/images/Raspberrypi-guide-logo.png"
+logo: "/assets/images/Raspberrypi-guide-logo.jpg"
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 heading_anchors: true

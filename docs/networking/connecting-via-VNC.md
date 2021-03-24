@@ -28,7 +28,7 @@ VNC (Virtual Network Computing) allows you to remotely control the desktop inter
 ## Enable VNC on the Raspberry Pi
 By default, VNC is disabled on the Raspberry Pi. It can be easily enabled both using the Desktop and via the terminal. To enable VNC via the Desktop, go to the start menu > `Preferences` > `Raspberry Pi Configuration`.
 
-[![Desktop Configuration](/assets/images/desktop-configuration.png?style=centerimgmed)](/assets/images/desktop-configuration.png)
+[![Desktop Configuration](/assets/images/desktop-configuration.jpg?style=centerimgmed)](/assets/images/desktop-configuration.jpg)
 
 Now click on `Interfaces` and click `enable` next to VNC and click `OK`.
 

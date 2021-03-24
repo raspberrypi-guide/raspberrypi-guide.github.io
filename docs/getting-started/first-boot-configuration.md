@@ -65,7 +65,7 @@ Finally, we will want to expand the filesystem (`Option 6 > A1`) to be able to u
 
 Now click `yes` to reboot when asked.
 
-[![SSH terminal configuration](/assets/images/terminal-ssh-configuration.png?style=centerimgmed)](/assets/images/terminal-ssh-configuration.png)
+[![SSH terminal configuration](/assets/images/terminal-ssh-configuration.jpg?style=centerimgmed)](/assets/images/terminal-ssh-configuration.jpg)
 
 ### Using the Configuration Menu using the Desktop interface
  1. Select raspberry symbol in the top left of the screen.
@@ -77,7 +77,7 @@ Now click `yes` to reboot when asked.
 8. Select “Keyboard” and select the corresponding locality/language that matches the appropriate keyboard configuration.
 9. Click “OK” and reboot the Raspberry Pi.
 
-[![Desktop Configuration](/assets/images/desktop-configuration.png?style=centerimgmed)](/assets/images/desktop-configuration.png)
+[![Desktop Configuration](/assets/images/desktop-configuration.jpg?style=centerimgmed)](/assets/images/desktop-configuration.jpg)
 
 ## Remove default folders
 I tend to remove the default folders to minimize clutter:
