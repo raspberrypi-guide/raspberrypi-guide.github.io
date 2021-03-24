@@ -1,60 +1,20 @@
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Raspberry Pi in Biology
+title: The Raspberry Pi Guide
 email: j.w.jolles@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  A website with detailed tutorials for using Raspberry Pi computers in
-  biological research.
+  A collection of detailed guides for working with the Raspberry Pi.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://raspberrypi-guide.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jollewjolles
 github_username:  jollejolles
-
-# Build settings
 remote_theme:  pmarsceill/just-the-docs
 plugins:
   - jekyll-feed
-
-## Theme settings
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-# Enable or disable the site search
+  - jekyll-seo-tag
+  - jekyll-include-cache
+include:
+  - _docs
+logo: "/assets/images/Raspberrypi-guide-logo.png"
 search_enabled: true
-# Enable support for hyphenated search words:
 search_tokenizer_separator: /[\s/]+/
-# Aux links for the upper right navigation
-aux_links:
-  "Jolle Jolles lab website":
-    - "//jollejolles.com"
-# Heading anchor links appear on hover over h1-h6 tags in page content
 heading_anchors: true
-# Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2020 Jolle Jolles. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">TO UPDATE license.</a>"
-# Google Analytics Tracking (optional)
-#ga_tracking: UA-5555555-55
-
-
-permalink: /:title
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+footer_content: "If you use find any of the information provided on this website useful it would be great to <a href=\"http://raspberrypi-guide.github.io/contact\">hear from you</a> and please consider <a href=\"http://raspberrypi-guide.github.io/paper\">citing the paper</a>! All rights reserved &copy; 2021 Jolle Jolles. Website built using Jekyll and the <a href=\"https://github.com/pmarsceill/just-the-docs\">Just the Docs</a> theme.</a>"
