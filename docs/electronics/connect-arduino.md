@@ -9,7 +9,7 @@ permalink: /electronics/connect-arduino
 # Connecting an Arduino to the Raspberry Pi
 {: .no_toc }
 
-In some cases it may be very helpful to combine an Arduino with a Raspberry Pi and luckily this is very easy to do
+In some cases it may be very helpful to combine an Arduino with a Raspberry Pi. Luckily this is very straight-forward to do
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -39,4 +39,4 @@ sudo usermod -a -G tty pi; sudo usermod -a -G dialout pi
 ## Sending files to your Arduino
 Click `Tools` > `Serial Port` and select the serial port (most likely `/dev/ttyACM0`), then click `Tools` > `Board`, and select the type of Arduino Board you have (e.g., the Uno).
 
-Now to start, click `File` > `Examples` > `01.Basics` > `Blink` to load a basic example sketch. Click the Upload button in the toolbar or choose `File` > `Upload ` to upload the sketch to your Rasbperry Pi. If everything worked correctly, the LED on your Raspberry Pi should start blinking continuously.
+Now to start, click `File` > `Examples` > `01.Basics` > `Blink` to load a basic example sketch. Click the Upload button in the toolbar or choose `File` > `Upload ` to upload the sketch to your Raspberry Pi. If everything worked correctly, the LED on your Raspberry Pi should start blinking continuously.

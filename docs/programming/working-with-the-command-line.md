@@ -9,7 +9,7 @@ permalink: /programming/working-with-the-command-line
 # Working with the command line
 {: .no_toc }
 
-You will likely be using the command line a lot when working with Raspberry Pi's. Below I provide a concise list of the essentials. If you are not already a bit familiar with the command line, I recommend the free [Raspberry Pi Command Line book](http://).
+You will likely be using the command line a lot when working with Raspberry Pi's. Below I provide a concise list of the essentials. If you are not already a bit familiar with the command line, I recommend the free [ebook](https://magpi.raspberrypi.org/books/command-line-second-edition/pdf){:target="_blank"} from the Raspberry Pi Foundation.
 {: .fs-6 .fw-300 }
 
 ## Table of contents

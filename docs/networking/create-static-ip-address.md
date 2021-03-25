@@ -6,10 +6,10 @@ nav_order: 5
 permalink: /networking/create-static-ip-address
 ---
 
-# Set up a static IP-address on the Raspberry Pi
+# Setting-up a static IP-address on the Raspberry Pi
 {: .no_toc }
 
-By default, the IP-address of the Raspberry Pi is dynamic, meaning it changes as you restart it or potentially when new devices are added to the wireless network. To make it easier to connect and have a more stable connection I recommend to set up a static IP address.
+By default, the Raspberry Pi will get a dynamically allocated IP-address, meaning it changes as you restart it or potentially when new devices are added to the network. To make it easier to connect and have a more stable connection I recommend to set up a static IP address.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -30,13 +30,13 @@ In this example it is `192.168.0.1`. Using the router’s ip address we can choo
 
 Determine if you want a static ip address over WiFi or Ethernet. The interfaces are called respectively `wlan0` and `eth0`.
 
-## Setting up using the Desktop
+## Setting-up using the Desktop
 It is very simple to set up your static ethernet address. Simply right-click on the Wi-Fi icon in the menu bar (top-right on the left of the speaker icon) and select the `Wireless & Wired Network Settings`.
 
 Now click the empty dropdown menu and select the network interface you want to configure. Now for `IPv4 Address` enter your chosen ip address, for `Router` the IP address of the router. AS DNS Servers add `8.8.8.8`. Finally, click the `Disable IPv6` option.
 
-## Setting up with the Terminal
-One can also set-up a static ip address via the terminal. For this we need to enter the `dhcpcd.conf` file:
+## Setting-up with the Terminal
+One can also set up a static IP-address via the terminal. For this we need to change the `dhcpcd.conf` file:
 
 ```
 sudo nano /etc/dhcpcd.conf
@@ -54,8 +54,7 @@ static domain_name_servers= YOURGATEWAYIP
 replacing the words in capital by what is desired. Now save the file by pressing `ctrl+x` then `y` to exit.
 
 ## Prioritising internet interface
-
-To make one internet interface have priority over the other, such as Ethernet over Wifi, add a `metric` number to each, with the higher metric being prioritised first. Open the `dhcpcd.conf` file:
+When you are using multiple internet interfaces, such as Ethernet over Wifi, it is important to make sure the internet interface has priority over the other such that you get a working internet connection. To do so, we need to add a `metric` number to each, with the higher metric being prioritised first. Open the `dhcpcd.conf` file:
 
 ```
 sudo nano /etc/dhcpcd.conf
@@ -83,4 +82,4 @@ sudo reboot
 Once your raspberry pi has finished restarting, connect to it locally to verify the static IP address `hostname -I` or ping from it on a networked computer `ping YOURSTATICIP`.
 
 ## Disabling static IP-address
-In many cases you may not want your Raspberry Pi set to use a static IP address. You can change the network configuration back by editing `dhcpcd.conf` again (`sudo nano /etc/dhcpcd.conf` and removing all the lines you added in the previous step.
+In many cases you may not want your Raspberry Pi set to use a static IP address. You can change the network configuration back by editing `dhcpcd.conf` again (`sudo nano /etc/dhcpcd.conf` and removing all the lines you added in the previous steps.

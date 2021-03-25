@@ -87,4 +87,4 @@ echo Running sample script
 sudo python /home/pi/sample.py
 ```
 
- The program can be aborted with ‘ctrl-c’ while it is running!
+ The program can be aborted with `ctrl-c` while it is running!

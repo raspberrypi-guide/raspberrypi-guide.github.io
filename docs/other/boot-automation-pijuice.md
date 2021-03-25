@@ -24,7 +24,7 @@ The Raspberry Pi has no native power management program that enables power suppl
 
 [![PiJuice](/assets/images/pijuice-hat.jpg?style=centerimgmed)](/assets/images/pijuice-hat.jpg)
 
-A number of HATs exist, such as the [PiJuice](https://uk.pi-supply.com/collections/pijuice), that provide power management tools for the Raspberry Pi. These HATs can augment the DC power supply from a battery such that fluctuating DC power sources, such as from a connected solar panel, can be utilised effectively. They can also help create an Uninterrupted Power Supply (UPS), such that in the case of a power outage it will automatically switch to battery input.
+A number of HATs exist, including the [PiJuice](https://uk.pi-supply.com/collections/pijuice){:target="_blank"}, that provide power management tools for the Raspberry Pi. These HATs can augment the DC power supply from a battery such that fluctuating DC power sources, such as from a connected solar panel, can be utilised effectively. They can also help create an Uninterrupted Power Supply (UPS), such that in the case of a power outage it will automatically switch to battery input.
 
 A key added benefit of power management HATs is that they tend to enable intelligent wake-up modes and the automated initiation of user-defined scripts, which, in combination with the true low power deep sleep state (< 1mA), can help to considerably reduce power consumption, which is our aim here.
 
@@ -32,7 +32,7 @@ A key added benefit of power management HATs is that they tend to enable intelli
 For this particular example, we will use the PiJuice to automatically turn on the Raspberry Pi, run a script, write a statement to a status log, and turn off the Raspberry Pi again after three minutes. Furthermore, we want that, if the Raspberry Pi is battery-powered the Raspberry pi turns off directly. And that the Raspberry Pi automatically turns on every 10min.
 
 ## Add print statements at boot and shutdown
-We want to log each time the raspberry pi boots and turns off. For this we will write simple Python scripts and then edit the startup and shutdown services. Follow the guide [here](http://) how to write the logfiles, and for this example we will use the file `/home/pi/pistatus.log` as an example.
+We want to log each time the raspberry pi boots and turns off. For this we will write simple Python scripts and then edit the startup and shutdown services. Follow [this guide](../programming/print-at-boot-and-shutdown.html) how to write the logfiles. For this example we will use a file named `/home/pi/pistatus.log`.
 
 ## Set up the PiJuice
 Next connect your PiJuice to the Raspberry Pi via the GPIO pins and download the PiJuice software:
@@ -43,19 +43,16 @@ sudo apt-get install pijuice-gui
 
 [![PiJuice GUI](/assets/images/pijuice-GUI.jpg?style=centerimgmed)](/assets/images/pijuice-GUI.jpg).
 
-A lot of detailed information on how to use the GUI can be found on the [PiJuice Github page](https://github.com/PiSupply/PiJuice/tree/master/Software). Here I focus on some of the most important functions.
+A lot of detailed information on how to use the GUI can be found on the [PiJuice Github page](https://github.com/PiSupply/PiJuice/tree/master/Software){:target="_blank"}. Here I focus on some of the most important functions.
 
 ## Turning the Raspberry Pi on and off automatically
 With PiJuice we can easily schedule the Raspberry Pi to turn on automatically according to a time schedule. Go to `PiJuice Settings` > `Wakeup Alarm` and choose your desired schedule. As a test example, let's have the Raspberry Pi start every 10min.
 
 Click the boxes next to `Every day` and `Every hour`, click `Minutes period` below and type in `10`. Now make sure `Wakeup enabled` is ticked, click `Set Alarm`, and finally click `Apply`.
 
-[![PiJuice wakeup](/assets/images/pijuic-wakeup.jpg?style=centerimgmed)](/assets/images/pijuic-wakeup.jg
-	g).
+[![PiJuice wakeup](/assets/images/pijuic-wakeup.jpg?style=centerimgmed)](/assets/images/pijuic-wakeup.jpg).
 
-With PiJuice there is no option to turn off the Raspberry Pi automatically, but we can set a timer and run a (Python) script to turn off the Raspberry Pi automatically after a set time, for example 3 minutes. We  also want to keep the Raspberry Pi running when it is not on Battery power.
-
-Let's create a new Python script:
+With PiJuice there is no option to turn off the Raspberry Pi automatically, but we can set a timer and run a (Python) script to turn off the Raspberry Pi automatically after a set time, for example 3 minutes. We  also want to keep the Raspberry Pi running when it is not on Battery power. Let's create a new Python script:
 
 ```
 nano /home/pi/runandturnoff.py

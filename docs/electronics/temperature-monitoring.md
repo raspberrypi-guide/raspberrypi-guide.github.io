@@ -20,7 +20,7 @@ The Raspberry Pi is great for connecting a wide range of sensors. Here I will ex
 ---
 
 ## DS18B20 Temperature sensor
-The [DS18B20](https://www.adafruit.com/product/381) is a digital temperature sensor that can measure temperatures between -55°C en +125°C with the Raspberry Pi, with the input and output linked on the same wire.
+The [DS18B20](https://www.adafruit.com/product/381){:target="_blank"} is a digital temperature sensor that can measure temperatures between -55°C en +125°C with the Raspberry Pi, with the input and output linked on the same wire.
 
 Theoretically up to 128 thermometers can be connected on the same GPIO pin as each will get a unique serial number, but as they will use power from the Raspberry Pi a maximum of 50 sensors may be recommended. Pretty cool!
 
@@ -36,7 +36,7 @@ Coming soon: wiring details
 
 When finished wiring the sensor, connect the black cable to a ground port on your GPIO, the red cable to the 3.3V port, and the yellow wire to GPIO4. The below image may help select the right pins:
 
-[![GPIO](/assets/images/gpio-numbers-pi2.jpg?style=centerimgmed)](/assets/images/gpio-numbers-pi2.jpg)
+[![GPIO](/assets/images/gpio-numbers-pi2.png?style=centerimgmed)](/assets/images/gpio-numbers-pi2.png)
 
 
 ## Load the sensor on your raspberry pi

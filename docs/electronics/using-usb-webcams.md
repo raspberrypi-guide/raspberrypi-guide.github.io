@@ -57,10 +57,10 @@ To take an image:
 ffmpeg -f v4l2 -video_size 1280x720 -i /dev/video0 -frames 1 out.jpg
 ```
 
-A more advanced alternative is `mjpeg-streamer`, which enables you to stream the camera in a browser. You can find a detailed tutorial how to set that up [here](https://www.sigmdel.ca/michel/ha/rpi/streaming_en.html).
+A more advanced alternative is `mjpeg-streamer`, which enables you to stream the camera in a browser. You can find a detailed tutorial how to set that up [here](https://www.sigmdel.ca/michel/ha/rpi/streaming_en.html){:target="_blank"}.
 
 ## Controlling the webcam with Python
-A number of solutions exist to connect to the USB camera with Python. Unfortunately the picamera software does not work with USB webcams. I suggest to use OpenCV. To help install OpenCV, follow my guide [here](http://). Now to record a single image:
+A number of solutions exist to connect to the USB camera with Python. Unfortunately the picamera software does not work with USB webcams. I suggest to use OpenCV. To help install OpenCV, follow my guide [here](../programming/install-opencv.html). Now to record a single image:
 
 ```
 import cv2
@@ -78,7 +78,7 @@ cam.release()
 cv2.destroyAllWindows()
 ```
 
-There are many other options available with opencv. I suggest to read the documentation at [opencv.org](http://opencv.org).
+There are many other options available with opencv. I suggest to read the documentation at [opencv.org](http://opencv.org){:target="_blank"}.
 
 ## Setting up multiple USB webcams
 You can connect as many webcams as you want as long as they are powered up per their requirements, such as using a powered USB hub. Each usb web cam that you connect gets listed under `/dev/video<n>` where n, starting at 0 for camera 1, is the id of the device.

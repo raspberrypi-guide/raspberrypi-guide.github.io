@@ -20,10 +20,10 @@ When working with the Raspberry Pi, it is a good idea to keep the following secu
 ---
 
 ## Raspberry Pi security
-The level of security you need for your Raspberry Pi will depend strongly how you use it. By default it is already quite secure and using it for a local network only simple changes may be needed, but when your Raspberry Pi is connected to the internet and for example used to broadcast live data, further security measures are recommended.
+The level of security you need for your Raspberry Pi will strongly depend on how you plan to use it. By default it is already quite secure and using it for a local network only simple changes may be needed. But when your Raspberry Pi is connected to the internet and for example used to broadcast live data, further security measures are recommended.
 
 ## Update the system
-It is important to ensure your system has the latest security fixes. This is as simple as keeping your version of Raspberry Pi OS  up-to-date. To do so, open a terminal window and enter:
+It is first of all important to ensure your system has the latest security fixes. This is as simple as keeping your version of Raspberry Pi OS  up-to-date. To do so, open a terminal window and enter:
 
 ```
 sudo apg-get update && sudo apt-get full-upgrade
@@ -71,11 +71,8 @@ If you want, you can also simultaneously remove the /home/pi directory:
 sudo deluser -remove-home pi
 ```
 
-Here is a firewall guide: https://pimylifeup.com/raspberry-pi-ufw/
-Maybe also check this “Don’t use auto login”
-
 ## Install a firewall
-There are a number of ways to add a firewall to your Raspberry Pi, including the `iptables` that comes with Raspberry Pi OS. I recommend to use the UFW ('uncomplicated firewall') interface.
+There are a number of ways to add a firewall to your Raspberry Pi, including the `iptables` that comes with Raspberry Pi OS. I recommend to use the [UFW](https://wiki.ubuntu.com/UncomplicatedFirewall){:target="_blank"} ('uncomplicated firewall') interface.
 
 To install the UFW software, open a terminal window and enter:
 
@@ -128,18 +125,17 @@ man ufw
 ## Work with credentials files
 The final security recommendation (for now) is to make use of environmental variables to store credentials, such as email logins, that may be needed in user scripts. Environment variables are operating system level variables whose value can be used by software programs. As the values remain in the system, not in the script, there is less risk of exposing credentials.
 
- Let's create a simple file called `mycredentials`:
+Let's create a simple file called `mycredentials`:
 
 ```
 nano ~/. mycredentials.env
-
 ```
 
-Now enter any information you may want and use a variable name you can call upon in your scripts. For example:
+Now enter any information you may want and use a variable name you can call upon in your scripts prepended with an `export` command. For example:
 
 ```
-GMAIL_USERNAME=XXXXXXX
-GMAIL_PASSWORD=XXXXXXX
+export GMAIL_USERNAME='XXXXXXX'
+export GMAIL_PASSWORD='XXXXXXX'
 ```
 
 Now save the file and change its permissions so it is not readable by others:
@@ -148,7 +144,13 @@ Now save the file and change its permissions so it is not readable by others:
 chmod 600 ~/.mycredentials.env
 ```
 
-and adapt your script to use the stored variables. For example, in Python:
+Make sure the variables are loaded:
+
+```
+source ~/.mycredentials.env
+```
+
+And finally, adapt your script to use the stored variables. For example, in Python:
 
 ```
 import os
@@ -156,4 +158,4 @@ GMAIL_USERNAME = os.environ['GMAIL_USERNAME']
 GMAIL_PASSWORD = os.environ['GMAIL_PASSWORD']
 ```
 
-Save your script and your script should run using the safely stored credentials.
+That's it!

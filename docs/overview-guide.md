@@ -19,7 +19,7 @@ This is an overview guide that should help you get up and running and using the 
 ---
 
 ## Setting up and configuring
-Make sure you have the [right hardware](http://). 2) [Install the operating system](http://) on the micro-SD card or use a pre-installed [NOOBS card](https://github.com/raspberrypi/noobs/blob/master/README.md). If you do not have a keyboard, mouse and screen you need to follow a couple more steps to [create a headless setup](http://). Plug-in the SD-card and connect the power to start your Raspberry Pi for the first time. Now it is time to generally [configure your Raspberry Pi](http://), such as to change the default password and hostname, make sure everything is up-to-date, and to enable various options.
+Make sure you have the [right hardware](getting-started/choosing-raspberry-pi-hardware.html). 2) [Install the operating system](http://) on the micro-SD card or use a pre-installed [NOOBS card](https://github.com/raspberrypi/noobs/blob/master/README.md). If you do not have a keyboard, mouse and screen you need to follow a couple more steps to [create a headless setup](http://). Plug-in the SD-card and connect the power to start your Raspberry Pi for the first time. Now it is time to generally [configure your Raspberry Pi](http://), such as to change the default password and hostname, make sure everything is up-to-date, and to enable various options.
 
 Getting to know the system, [working with Linux](http://), the [Raspberry Pi desktop](http://). Also if needed, read up on [working with the command line](http://).
 {Here also integrate guides from RaspberyPi foundation website}. https://projects.raspberrypi.org/en/projects/raspberry-pi-using

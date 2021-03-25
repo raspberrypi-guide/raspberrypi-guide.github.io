@@ -20,26 +20,49 @@ The Raspberry Pi does not come as a pre-installed computer, but luckily installi
 ---
 
 ## Using NOOBS
-It is generally recommended that beginners buy the Raspberry Pi with a micro SD-card that has [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md) (New Out Of Box Software) installed. This enables you to simply plug-in the SD card into your Raspberry Pi and follow the installation steps to install a wide range of operating systems.
+In general, it is recommended that beginners buy the Raspberry Pi with a micro SD-card that has [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md){:target="_blank"} (New Out Of Box Software) installed. It is true that this makes things easy by enabling you to simply plug-in the SD card into your Raspberry Pi and follow the installation steps to install a wide range of operating systems. However, I tend to recommend, also to complete beginners, to do a manual installation, which, with the new Raspberry Pi Imager software, has become a breeze.
 
-Rather than use NOOBS, which adds another installation step, I tend to recommend to install the operating system manually. This is almost as easy as using NOOBS but gives more flexibility, such as to work with already downloaded image files and enabling a [headless setup](http://).
+## Other installation options
+In the first years after its release, setting-up an SD-card with the Raspbian Operating System was a long and complicated process. Then a couple years ago it became a lot more straightforward by software like [Etcher](https://etcher.io){:target="_blank"}, which made it as simple as mounting the SD-card and downloading and installing from an OS image file (see below). In 2020 the Raspberry Pi Foundation released their own installer, which is now, in my opinion, the preferred way to install the Raspberry Pi Operating System.
 
 ## Using the Raspberry Pi Imager
-On another computer,  download and install the Raspberry Pi installer ([raspberrypi.org/downloads/](raspberrypi.org/downloads/)). Open the program and  select the desired operating system in the list. I recommend to choose the latest version of Raspberry Pi OS (previously called Raspbian) with Desktop.
-
-Now plug in your SD card into the computer, select it using the *Choose storage* option, and click *write*. In a couple minutes your SD card with a freshly installed operating system should be finished!
+Download the Raspberry Pi installer from the ([raspberrypi.org/downloads/](raspberrypi.org/downloads/){:target="_blank"}) website, make sure it is properly installed, and launch the program.
 
 [![Raspberry Pi imager](/assets/images/raspberry-pi-imager.jpg?style=centerimgmed)](/assets/images/raspberry-pi-imager.jpg)
 
-After the SD card is written, plug it in your Raspberry Pi and start it up by connecting power. Upon first boot in the Raspberry Pi OS Desktop environment, you will be guided through a short series of steps to help configure and update your system.
+The first thing to do is to select the Operating System. In general I suggest to choose the Raspberry Pi OS, although a range of other Operating Systems are available to select. By selecting the top option, the software will download the latest image file (>1gb) from the internet.
+
+If you want to install the SD-card offline (or already have an image file on your computer), you need to select the *Use custom* option at the bottom of the list. The latest image files can be found online on the Raspberry Pi website [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit).
+
+The good thing is that when you have already once downloaded the Raspberry Pi Image, you can use a cached version by selecting the second option in the list (*Raspberry pi OS (other)*, and then selecting your cached version.
+
+[![Raspberry Pi Imager cached](/assets/images/raspberrypi-imager-cached.jpg?style=centerimgmed)](/assets/images/raspberrypi-imager-cached.jpg)
+
+Next make sure your SD-card is mounted on your computer, click the *STORAGE* button, and select your SD-card. If it is not shown, try to remount it on your computer.
+
+[![Raspberry Pi Imagerstorage option](/assets/images/raspberrypi-imager-storage.jpg?style=centerimgmed)](/assets/images/raspberrypi-imager-storage.jpg)
+
+## Setting advanced settings
+Normally the next step would be to click *WRITE* and your Raspberry Pi Operating System would be written to the SD-card. However, in March 2021 a new version (v1.6) of the Raspberry Pi Imager software was [released](https://www.raspberrypi.org/blog/raspberry-pi-imager-update-to-v1-6){:target="_blank"} that adds a hidden menu with some great additional options that one would normally have to do manually after first boot! These include setting the hostname, enable SSH, configure the Wifi, and set locale settings, all before first boot. I strongly suggest to follow these additional steps to have a fully working Raspberry Pi in no time!
+
+[![Raspberry Pi Imager advanced menu](/assets/images/raspberry-pi-images-new.jpg?style=centerimgmed)](/assets/images/raspberry-pi-images-new.jpg)
+
+To access the hidden menu press `ctrl+shift+x` on windows and `cmd+shift+x` on a mac. For the *hostname*, choose a unique name to help increase the security of your Raspberry Pi.
+
+Next click *Enable SSH* and set a new password for the standard `pi` user. Click *Configure wifi and add the *SSID* and *Password* of your Wifi network. These two options will make it possible to immediately start using your Raspberry Pi headless if needed. Make sure to also set the Wifi country code correctly as in some cases not setting this right may result in the wireless network not working properly.
+
+Finally, I suggest to run select *skip first-run wizard*. Upon first boot in the Desktop interface, normally a welcome wizard is shown to help you set up all of the above and help with some additional steps that are easy to run manually.
+
+Now click *Save* and finally click the *WRITE* button. As soon as the SD-card is written it will be automatically unmounted. This will take longer the larger the capacity of your SD-card.
+
+## Connecting
+After installing the SD-card, plug it into your Raspberry Pi and start it up by connecting power. When you installed the operating system without using the advanced settings menu above, or for example when no local (wifi) network is available, you will need a screen, keyboard, and mouse to connect to your Raspberry Pi. However, with the advanced settings above you should be able to connect to your Raspberry Pi without these peripherals (i.e. "headless") using [SSH](http://).
 
 ## Using Etcher
-[Etcher](https://etcher.io) is another way to install the operating system that tends to be slightly faster than the Raspberry Pi Imager tool. You can download it from [https://etcher.io](https://etcher.io), making sure to select the right version compatible with your operating system. Now set up the Etcher software and accept the license agreement and install.
+I tended to use [Etcher](https://etcher.io){:target="_blank"} to install the operating system before the newest version of the Raspberry Pi Imager, so I have included the steps here how to use this alternative software for completeness. Also testing them side-by-side suggests that Etcher tends to be slightly faster than the Raspberry Pi Imager tool.
+
+First download the free software from [https://etcher.io](https://etcher.io){:target="_blank"}, making sure to select the right version compatible with your operating system. Now set up the Etcher software and accept the license agreement and install.
 
 [![Balena Etcher](/assets/images/balena-etcher.jpg?style=centerimgmed)](/assets/images/balena-etcher.jpg)
 
-To install you will need to have an image file of the operating system on your computer. You can for example download the latest version of the Raspberry Pi OS [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit). Now Open Etcher, select the downloaded image file, select the SD card, and click *flash*. That's it.
-
-
-## Connecting
-Whatever approach you used above, to be able to connect to your Raspberry Pi you will need a screen, keyboard, and mouse. However, with a couple of simple additional steps it is also possible to immediately run your freshly installed SD card without these peripherals. See the [Raspberry Pi headless setup guide](http://).
+To install you will need to have an image file of the operating system on your computer. You can for example download the latest version of the Raspberry Pi OS [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit){:target="_blank"}. Now Open Etcher, select the downloaded image file, select the SD card, and click *flash*. That's it.

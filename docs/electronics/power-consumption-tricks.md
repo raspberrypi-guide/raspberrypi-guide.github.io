@@ -9,7 +9,7 @@ permalink: /electronics/power-consumption-tricks
 # Reduce power consumption of the Raspberry Pi
 {: .no_toc }
 
-There are various ways to save power on your Raspberry Pi. Besides the model and reducing the processing needs, here are some extra steps to further reduce power consumption.
+There are various ways to save power on your Raspberry Pi. Besides the model you use and reducing its processing needs, here are some extra steps to further reduce its power consumption.
 {: .fs-6 .fw-300 }
 
 ## Table of contents

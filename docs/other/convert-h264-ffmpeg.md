@@ -22,7 +22,7 @@ FFMpeg is a great and highly versatile utility for converting image and video fr
 ## FFmpeg
 The Raspberry Pi is great for recording images and video. One issue is that it records videos in the compressed `.h264` container, which is hard to work with. In many cases it is desirable to convert videos to widely applicable formats like `.mp4` to be able to view them properly and get the right meta information. For this I recommend the program `FFmpeg`.
 
-[ffmpeg](https://www.ffmpeg.org/ffmpeg.html) is a very fast video and audio converter that can also grab from a live audio/video source. Installing FFmpeg on a Raspberry Pi is not as simple as downloading an executable from the command line, but it is also not too difficult.
+[ffmpeg](https://www.ffmpeg.org/ffmpeg.html){:target="_blank"} is a very fast video and audio converter that can also grab from a live audio/video source. Installing FFmpeg on a Raspberry Pi is not as simple as downloading an executable from the command line, but it is also not too difficult.
 
 ## Install h264 library
 Open a terminal window on the Raspberry Pi (or via SSH connection). First we will download the h264 library:
@@ -84,6 +84,7 @@ Create the installation for four cores:
 ```
 make -j4
 ```
+
 *Note this step may take a long time!* And now finally run the installation:
 
 ```
@@ -101,10 +102,10 @@ Now you are ready to convert (h264) videos on your Raspberry Pi. To convert a si
 ffmpeg -i USER_VIDEO.h264 -vcodec copy USER_VIDEO.mp4
 ```
 
-It is a bit more tricky to (automatically) convert whole folders of videos. I have written a special `Convert` functionality as part of my [pirecorder](https://github.com/JolleJolles/pirecorder) package to facilitate this. For example, to convert a folder of videos, add frame numbers to the topleft corner of each video frame, and resize the video by half:
+It is a bit more tricky to (automatically) convert whole folders of videos. I have written a special `Convert` functionality as part of my [pirecorder](https://github.com/JolleJolles/pirecorder){:target="_blank"} package to facilitate this. For example, to convert a folder of videos, add frame numbers to the topleft corner of each video frame, and resize the video by half:
 
 ```
 convert --indir VIDEOS --outdir CONVERTED --withframe True --resizeval 0.5
 ```
 
-You can read its documentation [here](https://github.com/JolleJolles/pirecorder/wiki/pirecorder-convert/).
+You can read its documentation [here](https://github.com/JolleJolles/pirecorder/wiki/pirecorder-convert/){:target="_blank"}.

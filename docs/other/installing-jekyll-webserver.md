@@ -20,7 +20,7 @@ Set up your Raspberry Pi to host a static website using Jekyll, the same softwar
 ---
 
 ## What is Jekyll
-There are many ways to host a website on your Raspberry Pi, of which I think Jekyll ([jekyllrb.com](https://jekyllrb.com/)) is one of the best solutions. Jekyll is a static site generator that specifically helps to render Markdown and template files into a complete static website. Jekyll was also used to create this website, hosted from a Github repository using [Github Pages](https://pages.github.com/).
+There are many ways to host a website on your Raspberry Pi, of which I think Jekyll ([jekyllrb.com](https://jekyllrb.com/){:target="_blank"}) is one of the best solutions. Jekyll is a static site generator that specifically helps to render Markdown and template files into a complete static website. Jekyll was also used to create this website, hosted from a Github repository using [Github Pages](https://pages.github.com/){:target="_blank"}.
 
 ## Installing Jekyll
 First we will install Ruby, which is a package manager that we use to install jekyll:
@@ -60,12 +60,12 @@ To run the wesbite, navigate into its folder, e.g.:
 cd websitename
 ```
 
-Now to serve the website at `http://localhost:4000`, enter:
+Now to serve the website at [http://localhost:4000](http://localhost:4000){:target="_blank"}, enter:
 
 ```
 bundler exec jekyll serve 2>/dev/null
 ```
 
-This will continuously update your website while you edit files. Read more about how to create a jekyll website [here](https://jekyllrb.com/).
+This will continuously update your website while you edit files. Read more about how to create a jekyll website [here](https://jekyllrb.com/){:target="_blank"}.
 
-Your website will be hosted locally but with some extra steps it is also possible to serve the website to the broader internet, such as by using [ngrok](https://ngrok.com/).
+Your website will be hosted locally but with some extra steps it is also possible to serve the website to the broader internet, such as by using [ngrok](https://ngrok.com/){:target="_blank"}.

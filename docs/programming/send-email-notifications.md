@@ -9,7 +9,7 @@ permalink: /programming/send-email-notifications
 # Sending automatic email from your Raspberry Pi
 {: .no_toc }
 
-Using the Raspberry Pi it is quite easy to send automatic emails, such as warning messages or notifications. While there are various ways to do this, I suggest to use the Yagmail library and Python.
+Using the Raspberry Pi it is quite easy to send automatic emails, such as warning messages or notifications. There are various ways to do this. Here I suggest to use the Yagmail library and Python.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -20,7 +20,7 @@ Using the Raspberry Pi it is quite easy to send automatic emails, such as warnin
 ---
 
 ## Create Gmail account
-First create a new (throw-away) gmail account and remember the username and password. Turn on less secure app access in this gmail account by going to [https://myaccount.google.com/](https://myaccount.google.com/), click *Security*, scroll down to *Less Secure App Access* and toggle *On*. A more secure way is to use OAuth2 in combination with Google’s API console. You can find a guide how to do that [here](https://blog.macuyiko.com/post/2016/how-to-send-html-mails-with-oauth2-and-gmail-in-python.html).
+First create a new (throw-away) gmail account and remember the username and password. Turn on less secure app access in this gmail account by going to [https://myaccount.google.com/](https://myaccount.google.com/), click *Security*, scroll down to *Less Secure App Access* and toggle *On*. A more secure way is to use OAuth2 in combination with Google’s API console. You can find a guide how to do that [here](https://blog.macuyiko.com/post/2016/how-to-send-html-mails-with-oauth2-and-gmail-in-python.html){:target="_blank"}.
 
 ## Install software
 Next we are going to install the Yagmail Python package. It builds on the possibility to use the Operating System's keychain, so we will install a corresponding package for that as well, and let it automatically install a backend:
@@ -52,4 +52,4 @@ print("Email sent!")
 
 When running the script for the first time, you will be prompted for the email password. Upon entering this once, it will be stored in the keyring and not asked again. You should receive your first email within the next seconds!
 
-As a next step you could wrap the code in a function and implement it with other functions that for example read sensors or check folders and thereby send automatic emails with subject and contents adjusted based on the events. Another great way is to use [cron jobs](https://www.raspberrypi.org/documentation/linux/usage/cron.md) to send emails at scheduled intervals.  
+As a next step you could wrap the code in a function and implement it with other functions that for example read sensors or check folders and thereby send automatic emails with subject and contents adjusted based on the events. Another great way is to use [cron jobs](https://www.raspberrypi.org/documentation/linux/usage/cron.md){:target="_blank"} to send emails at scheduled intervals.  

@@ -9,7 +9,7 @@ permalink: /programming/print-at-boot-and-shutdown
 # Print statements at boot and shut-down
 {: .no_toc }
 
-For some use cases it may be very handy to have a concise log file with all the times when your Raspberry Pi booted up and shut down. Here we will write two simple Python scripts and run them using boot and shutdown services.
+For some use cases it may be very handy to have a concise log file with all the times when your Raspberry Pi booted up and shut down. Here we will do this using Python and boot and shutdown services.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -119,7 +119,7 @@ sudo chmod a+x /etc/rc.shutdown
 ```
 
 ## Testing
-Ttart the shutdown service for the first boot (it should run automatically from next boot):
+Start the shutdown service for the first boot (it should run automatically from next boot):
 
 ```
 sudo systemctl start rcshut.service

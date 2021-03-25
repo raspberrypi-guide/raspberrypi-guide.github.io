@@ -9,7 +9,7 @@ permalink: /filesharing/filesharing-raspberry-pi
 # Sharing files with the Raspberry Pi
 {: .no_toc }
 
-There are many ways to connect to see, copy, and edit files on a Raspberry Pi. Samba is one of the easiest to set up and configure and makes it possible to share directories with both Linux, Mac, and Windows operating systems.
+There are many ways to connect to see, copy, and edit files on a Raspberry Pi. Samba is one of the most versatile and is easy to configure to share directories with both Linux, Mac, and Windows operating systems.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -33,7 +33,7 @@ scp <Path to File To Copy> pi@<IP Address of Raspberry Pi>:<Path that File will 
 ```
 
 ## Installing Samba
-A more complete solution that also enables you to mount (drives on) your Raspberry Pi is to use Samba. To install, run the following command:
+A more versatile solution that also enables you to mount (drives on) your Raspberry Pi is to use Samba. To install, run the following command:
 
 ```
 sudo apt install samba samba-common-bin

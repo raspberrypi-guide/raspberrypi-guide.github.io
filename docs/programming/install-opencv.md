@@ -9,7 +9,7 @@ permalink: /programming/install-opencv
 # Installing OpenCV
 {: .no_toc }
 
-Below I guide you through the basic steps necessary to get OpenCV to work on Mac, Ubuntu and Raspberry Pi.
+Below I guide you through the basic steps necessary to get OpenCV working on the Raspberry Pi as well as on Ubuntu and Mac.
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -20,12 +20,12 @@ Below I guide you through the basic steps necessary to get OpenCV to work on Mac
 ---
 
 ## OpenCV
-[OpenCV](https://opencv.org) is a very extensive and incredibly powerful library for (real-time) computer vision, including object detection, motion tracking, and camera calibration.
+[OpenCV](https://opencv.org){:target="_blank"} is a very extensive and incredibly powerful library for (real-time) computer vision, including object detection, motion tracking, and camera calibration.
 
-Installing OpenCV used to be a very complicated and long process, especially on older models. Luckily it is now relatively easy to [install OpenCV with pip](https://pypi.org/project/opencv-python). For more background information, see the article [here](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/) by Adrian Rosebrock.
+Installing OpenCV used to be a very complicated and long process, especially on older models. Luckily it is now relatively easy to [install OpenCV with pip](https://pypi.org/project/opencv-python){:target="_blank"}. For more background information, see [the article](https://www.pyimagesearch.com/2018/09/19/pip-install-opencv/){:target="_blank"} by Adrian Rosebrock.
 
 ## Install pip
-Pip is the main package manager for python that we will also use to install OpenCV. Pip should already be installed on your system (see [here](https://pip.pypa.io/en/stable/installing/)), but if it's not, we can install it with wget. Open a Terminal window and enter:
+Pip is the main package manager for python that we will also use to install OpenCV. Pip should already be installed on your system (see [here](https://pip.pypa.io/en/stable/installing/){:target="_blank"}), but if it's not, we can install it with wget. Open a Terminal window and enter:
 
 ```
 wget https://bootstrap.pypa.io/get-pip.py

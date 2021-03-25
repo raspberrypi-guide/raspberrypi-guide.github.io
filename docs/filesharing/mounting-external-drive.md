@@ -20,7 +20,7 @@ To mount an external drive on the Raspberry Pi, a couple extra steps may be need
 ---
 
 ## Mounting automatically using the Desktop
-Using the Raspberry Pi OS Desktop, any (readable) hard drive that is connected will be mounted automatically in the folder `/media/pi/`. It is subsequently very easy to share this folder over the network and thereby make the Raspberry Pi into a NAS, following the [filesharing guide](link). In this way you can connect your external hard disk, SSD, or USB stick to any of the USB ports on the Raspberry Pi, and mount the file system to access the data stored on it. Your Raspberry Pi is actually in that way acting as a dedicated NAS-drive!
+Using the Raspberry Pi OS Desktop, any (readable) hard drive that is connected will be mounted automatically in the folder `/media/pi/`. It is subsequently very easy to share this folder over the network and thereby make the Raspberry Pi into a NAS, following the [filesharing guide](filesharing-raspberry-pi.html). In this way you can connect your external hard disk, SSD, or USB stick to any of the USB ports on the Raspberry Pi, and mount the file system to access the data stored on it. Your Raspberry Pi is actually in that way acting as a dedicated NAS-drive!
 
 ## Mounting manually
 If you want to mount your drive manually, such as to make sure that the mount location is always the same or when not having access to the Desktop interface, connect the drive to your Raspberry Pi and create a target folder to be the mount point of the storage device, e.g. `exdisk`:
@@ -41,9 +41,7 @@ and look for the partition starting with `/dev/` that has the expected file size
 sudo mount /dev/sdb2 /mnt/exdisk
 ```
 
-You can verify that it is successfully mounted by listing the contents (`ls /mnt/exdisk`).
-
-To unmount a storage device:
+You can verify that it is successfully mounted by listing the contents (`ls /mnt/exdisk`). To unmount a storage device:
 
 ```
 sudo umount /mnt/mydisk
@@ -74,30 +72,12 @@ The same can be done with a network drive:
 //NASdrive.local/data /home/pi/NAS cifs -o username=pi,password=naspassword 0 0
 ```
 
-As this exposes your username and password this is not ideal and much better is to create a credentials file:
+As this exposes your username and password this is not ideal and much better is to create a credentials file. Follow the security guide [here](../networking/raspberry-pi-security.html).
+
+Now edit the `/etc/fstab` file as root user again to add your samba share:
 
 ```
-nano ~/.mycredentials
-
-```
-
-Store your username and password:
-
-```
-username=username
-password=password
-```
-
-Now save the file and change its permissions so it is not readable by others:
-
-```
-chmod 600 ~/.smbcredentials
-```
-
-Edit the `/etc/fstab` file as root user again to add your samba share:
-
-```
-//NASdrive.local/data /home/pi/NAS cifs -o credentials=/home/pi/.mycredentials 0 0
+//NASdrive.local/data /home/pi/NAS cifs -o credentials=mycredentials.env 0 0
 ```
 
 Now test with

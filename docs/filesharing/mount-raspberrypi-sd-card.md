@@ -65,7 +65,7 @@ sudo umount /Users/me/RPi
 ## Mount the Raspberry Pi SD card on Windows
 Although `ext4` is the most common Linux file system, it's not supported on Windows by default either, which uses `FAT32` and `NTFS` as main file systems. There are a couple software packages that make it possible to mount an `ext4` drive. I suggest to use the Windows file system driver software Ext2Fsd.
 
-First download the free software at [http://Ext2Fsd.com](http://Ext2Fsd.com). Then install and launch the program on your Windows PC.
+First download the free software at [http://Ext2Fsd.com](http://Ext2Fsd.com){:target="_blank"}. Then install and launch the program on your Windows PC.
 
 In the program go to `Tools` > `Service Management` > `Start` before accessing Linux files. Also check *Mount all volumes in read-only mode* and *Assign drive letter automatically* boxes and click *Apply*.
 
