@@ -5,9 +5,9 @@ nav_order: 1
 permalink: /raspberry-pi
 ---
 
-# Raspberry Pi
+# The Raspberry Pi
 
-The Raspberry Pi is a low-cost single-board computer (SBC) built on open-source principles. Developed with the non-profit incentive to increase global access to computing and digital making, it brings together external hardware, sensor, and controller interfaces, with user-friendly programming capabilities, high connectivity, and desktop functionality. It is by far the most popular SBC to date, with over 30 million units sold since 2012.
+The Raspberry Pi is a highly popular, low-cost single-board computer (SBC). Built on open-source principles and developed with the non-profit incentive to increase global access to computing and digital making, it brings together external hardware, sensor, and controller interfaces, with user-friendly programming capabilities, high connectivity, and desktop functionality.
 {: .fs-6 .fw-300 }
 ---
 
