@@ -16,8 +16,13 @@ Planned improvements and additions
 - Guide about send messages to Twitter
 - Guide for working with the Raspberry Pi camera
 - Guide for setting up an RFID reader
-- Add further images to guides
 
 Overview of incorporated changes
 {: .label .label-green }
-- 25/03/2021  Website live!
+- 29/03/2021 Finalised the homepage and contact page
+- 29/03/2021 Created page about the Raspberry Pi and the Raspberry Pi review paper
+- 26/03/2021 Optimised all images on the website to further improve load speed
+- 25/03/2021 Large update to finalise all guides (currently 33)
+- 25/03/2021 Further improved website functionality on mobile devices
+- 24/03/2021 Added possibility to leave comments to all guides using Disqus
+- 23/03/2021 Website live at [raspberrypi-guide.github.io](raspberrypi-guide.github.io)!
