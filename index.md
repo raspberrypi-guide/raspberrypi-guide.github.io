@@ -7,34 +7,21 @@ permalink: /
 # The Raspberry Pi Guide for scientists and anyone else!
 [![Raspberry Pi Logo](/assets/images/raspberrypi-guide-logonotext.jpg?style=titleimgright)](http://raspberrypi.org)
 {: .fs-9 }
----
-The Raspberry Pi is a widely popular and highly diverse, low-cost, single-board computer and a great research tool for scientists working in the biological sciences and other domains.
+
+Welcome to the Raspberry Pi Guide website! Here you can find a compendium of guides and tutorials (30+) to help you get started and get the most our of your Raspberry Pi.
 {: .fs-6 .fw-300 }
+---
 
-[![Raspberry Pi Review paper](/assets/images/jolles-et-al-frontpage.jpg?style=smallimgleft)](/assets/images/jolles-et-al-frontpage.jpg)
+## The website
+This website is developed and maintained by Dr Jolle Jolles as part of a bigger effort to help researchers to take up and integrate Raspberry Pi's in their work and accompanies the academic review paper ([*Broad-scale Applications of the Raspberry Pi: A Review and Guide for Biologists*](the-paper)) that documents the broad uptake of Raspberry Pi's in the biological sciences.
 
-This website accompanies the [preprint](raspberry-pi-paper.html) *Broad-scale Applications with the Raspberry Pi: A Review and Guide for Biologists* and provides a resource hub specifically aimed at scientists to provide guidance setting-up and integrating the Raspberry Pi in their work. A wide range of tutorials can be found via the menu on the left, as well as a [FAQ](FAQ.html). Additional guides can be found on the website of the Raspberry Pi Foundation: [raspberrypi.org/documentation/](https://www.raspberrypi.org/documentation/) https://github.com/raspberrypi/documentation
-
-Currently the website hosts a total of 33 guides already, and more guides will be added in the future. The best place to start is to follow the [Main Raspberry Pi guide](http://).
-
-{make clear this website was created with scientists in mind and highlight thereby how it is different from other websites, such as no adds. Aim to provide concise, easy to follow guides. link to the very detailed starting documentation book by RPi foundation.}
-
+Although the website was developed with scientists in mind, it should be helpful to anyone using or wanting to use these highly versatile little computers! The website has been carefully developed to provide concise and easy-to-follow guides without any distractions, something I would have appreciated when I started using them back in 2014! The best place to start is the follow along with the [overview guide](/overview-guide).
 
 ## About me
-[![Jolle workshop](/assets/images/jolle-raspberrypi-workshop.jpg?style=smallimgright)](/assets/images/jolle-raspberrypi-workshop.jpg)
-I am Jolle Jolles, a researcher at the Center for Ecological Research and Forestry Applications ([CREAF](http://creaf.cat)). [My research](http://jollejolles.com) is focused on the role of individual heterogeneity in animal communities and its consequences across social and ecological scales. With my work I have been pushing novel empirical approaches to the study of animal behaviour and more broadly have been a strong proponent of the use of Raspberry Pi's and give workshops, maintain this website, and have written a [detailed review](http://) about the many potential research applications possible with the Raspberry Pi. Find out more about my research via my website: [http://jollejolles.com](http://jollejolles.com), on Twitter: [@jollewjolles](http://twitter.com/jollewjolles), or Instagram: [@jollethebiologist](http://instagram.com/jollethebiologist).
+[![Jolle workshop](/assets/images/jolle-raspberrypi-workshop.jpg?style=smallimgright)](/assets/images/jolle-raspberrypi-workshop.jpg) I am Jolle Jolles, a behavioural ecologist at the Center for Ecological Research and Forestry Applications ([CREAF](http://creaf.cat)). I study the behaviour of individuals and groups of animals to try and understand the role of phenotypic variation in animal communities and its consequences across ecological scales. I am a passionate and long-term user of Raspberry Pi's, and have used them as a central component of my work since 2014. Besides creating this website and writing the detailed [review article](http://), I also give Raspberry Pi workshops for fellow scientists. You can find out more about my research on my website ([jollejolles.com](http://jollejolles.com)), Twitter ([@jollewjolles](http://twitter.com/jollewjolles)), and Instagram ([@jollethebiologist](http://instagram.com/jollethebiologist)).
 
+## Contact
+I hope you find this website useful! If you have any comments, questions, or suggestions or just want to say hi, it would be great to hear from you. You can leave comments on the specific guides or [send me an email](mailto:j.w.jolles@gmail.com). Please also consider [citing the paper](the-paper).
 
-## Citing
-If you find any of the material on this website useful, please share the word and consider citing the paper, that would be highly appreciated!
-
-```
-@article{Jolles2020,
-      title = {Low-cost and automated solutions in biological research with the Raspberry Pi},
-      author = {Jolles, Jolle W.},
-      journal = {bioRxiv},
-      keywords = {raspberry pi, automation, data logging, electronics, single-board computer, technology, tools},
-      year = {2021}
-      doi = {10.5281/xxxxxxxx}
-}
-```
+<strong>*Thanks!*</strong>
+{: .fs-5 .fw-300 }
