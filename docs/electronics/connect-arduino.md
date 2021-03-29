@@ -19,7 +19,7 @@ In some cases it may be very helpful to combine an Arduino with a Raspberry Pi. 
 {:toc}
 ---
 ## Install Arduino IDE
-The Raspberry Pi makes a great host for the Arduino, which is a much simpler microcomputer but with some complementary capabilities. To control the Arduino we will use the Arduino IDE like on any other computer. To install:
+The Raspberry Pi makes a great host for the Arduino, which is a much simpler microcomputer but with some complementary capabilities, like converting analog-to-digital with its built-in ADC chip. To control the Arduino we will use the Arduino IDE like on any other computer. To install:
 
 ```
 sudo apt-get update
