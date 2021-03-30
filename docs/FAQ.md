@@ -8,7 +8,7 @@ permalink: /FAQ
 # Frequently Asked Questions
 {: .no_toc }
 
-Here you will find an overview of Frequently Asked Questions with my concise answers. These are meant to complete the detailed [FAQ]((https://www.raspberrypi.org/documentation/faqs/){:target="_blank"} on the Raspberry Pi Foundation website. If you have any further questions, please leave a comment below!
+Here you will find an overview of Frequently Asked Questions with my concise answers. These are meant to complete the detailed [FAQ](https://www.raspberrypi.org/documentation/faqs/){:target="_blank"} on the Raspberry Pi Foundation website. If you have any further questions, please leave a comment below!
 {: .fs-6 .fw-300 }
 
 ## Table of contents
