@@ -16,32 +16,32 @@
 	var visibleComments = [];
 
 	function formatDate(stringDate) {
-		var date = new Date(stringDate)
+		var date = new Date(stringDate);
 		var dateOptions = { year: 'numeric', month: 'long', day: 'numeric'};
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
-		return `${date.toLocaleDateString("en-us", dateOptions)} at ${date.toLocaleTimeString("en-us", timeOptions)}`
-	}
+		return `${date.toLocaleDateString("en-gb", dateOptions)} at ${date.toLocaleTimeString("en-gb", timeOptions)}`;
+	};
 
 	function displayComments(comments) {
 		if (comments == null || comments === "") {
 			if (visibleComments.length == 0) {
-				$("#no-comments").show()
+				$("#no-comments").show();
 			}
 			return;
 		}
 
-		comments = `timestamp,name,comment,isAuthor\n${comments}`
-		commentList = $.csv.toObjects(comments)
+		comments = `timestamp,name,comment,isAuthor\n${comments}`;
+		commentList = $.csv.toObjects(comments);
 
 		commentList.forEach(function(element) {
 			if (visibleComments.includes(JSON.stringify(element))) {
 				return;
 			}
 
-			var verifiedAuthorTag = ""
+			var verifiedAuthorTag = "";
 			if (element.isAuthor === "TRUE") {
-				verifiedAuthorTag = "&nbsp;<strong>(Author)</strong>"
-			}
+				verifiedAuthorTag = "&nbsp;<strong>(Author)</strong>";
+			};
 
 			var newItem = $(`
 				<div class="comment-item">
@@ -50,33 +50,33 @@
 							<p>${validator.escape(element.comment).replace(new RegExp('\r?\n','g'), '<br />')}</p>
 					</div>
 					</div>
-			`).hide()
-			$("#commentSection").append(newItem)
-			newItem.fadeIn()
-			visibleComments.push(JSON.stringify(element))
+			`).hide();
+			$("#commentSection").append(newItem);
+			newItem.fadeIn();
+			visibleComments.push(JSON.stringify(element));
 
-			$("#no-comments").hide()
+			$("#no-comments").hide();
 		});
-	}
+	};
 
 	function reloadComments() {
-		var sqlStatement = encodeURIComponent(`SELECT A, C, D, E WHERE B = '${thisPageUrl}'`)
-		fetch(`{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`)
-		.then(response => response.text())
-		.then(response => displayComments(response))
-	}
+		var sqlStatement = encodeURIComponent(`SELECT A, C, D, E WHERE B = '${thisPageUrl}'`);
+		fetch(`{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`);
+		.then(response => response.text());
+		.then(response => displayComments(response));
+	};
 
-	reloadComments()
+	reloadComments();
 
 	const encodeFormData = (data) => {
 	    return Object.keys(data)
 	        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
 	        .join('&');
-	}
+	};
 
 	function postComment() {
-		var username = $("#comment-name").val()
-		var comment = $("#comment-comment").val()
+		var username = $("#comment-name").val();
+		var comment = $("#comment-comment").val();
 
 		fetch(`{{ site.comment-post }}/formResponse`, {
 		  method: 'POST',
@@ -90,14 +90,14 @@
 		  	"{{ site.comment-post-fields[2] }}" : comment
 		  })
 		}).then(response => {
-			$("#comment-name").val('')
-			$("#comment-comment").val('')
-			reloadComments()
+			$("#comment-name").val('');
+			$("#comment-comment").val('');
+			reloadComments();
 		})
-		.catch(error => {console.log(error)})
+		.catch(error => {console.log(error)});
 
-		return false
-	}
+		return false;
+	};
 </script>
 <h4 class="post-subtitle">Comments</h4>
 <div id="commentSection" class="comments">
