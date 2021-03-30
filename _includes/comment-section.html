@@ -19,7 +19,7 @@
 		var date = new Date(stringDate);
 		var dateOptions = { year: 'numeric', month: 'long', day: 'numeric'};
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
-		return `${date.toLocaleDateString("en-gb", dateOptions)} at ${date.toLocaleTimeString("en-gb", timeOptions)}`;
+		return '${date.toLocaleDateString("en-gb", dateOptions)} at ${date.toLocaleTimeString("en-gb", timeOptions)}';
 	};
 
 	function displayComments(comments) {
@@ -30,7 +30,7 @@
 			return;
 		}
 
-		comments = `timestamp,name,comment,isAuthor\n${comments}`;
+		comments = 'timestamp,name,comment,isAuthor\n${comments}';
 		commentList = $.csv.toObjects(comments);
 
 		commentList.forEach(function(element) {
@@ -43,14 +43,14 @@
 				verifiedAuthorTag = "&nbsp;<strong>(Author)</strong>";
 			};
 
-			var newItem = $(`
+			var newItem = $('
 				<div class="comment-item">
 					<p class="commenter-name">${validator.escape(element.name)}${verifiedAuthorTag}<small>${formatDate(element.timestamp)}</small></p>
 					<div>
 							<p>${validator.escape(element.comment).replace(new RegExp('\r?\n','g'), '<br />')}</p>
 					</div>
 					</div>
-			`).hide();
+			').hide();
 			$("#commentSection").append(newItem);
 			newItem.fadeIn();
 			visibleComments.push(JSON.stringify(element));
@@ -60,8 +60,8 @@
 	};
 
 	function reloadComments() {
-		var sqlStatement = encodeURIComponent(`SELECT A, C, D, E WHERE B = '${thisPageUrl}'`);
-		fetch(`{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`);
+		var sqlStatement = encodeURIComponent('SELECT A, C, D, E WHERE B = '${thisPageUrl}'');
+		fetch('{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0');
 		.then(response => response.text());
 		.then(response => displayComments(response));
 	};
@@ -78,7 +78,7 @@
 		var username = $("#comment-name").val();
 		var comment = $("#comment-comment").val();
 
-		fetch(`{{ site.comment-post }}/formResponse`, {
+		fetch('{{ site.comment-post }}/formResponse', {
 		  method: 'POST',
 		  mode: 'no-cors',
 		  headers: {
