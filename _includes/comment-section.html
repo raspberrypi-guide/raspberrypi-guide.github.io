@@ -47,7 +47,7 @@
 				<div class="comment-item">
 					<p class="commenter-name">${validator.escape(element.name)}${verifiedAuthorTag}<small>${formatDate(element.timestamp)}</small></p>
 					<div>
-							<p>${validator.escape(element.comment).replace(new RegExp('\r?\n','g'), '<br />')}</p>
+							<p>${validator.escape(element.comment).replace(new RegExp("\r?\n","g"), "<br />")}</p>
 					</div>
 					</div>
 			').hide();
@@ -60,8 +60,8 @@
 	};
 
 	function reloadComments() {
-		var sqlStatement = encodeURIComponent('SELECT A, C, D, E WHERE B = '${thisPageUrl}'');
-		fetch('{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0');
+		var sqlStatement = encodeURIComponent('SELECT A, C, D, E WHERE B = "${thisPageUrl}"');
+		fetch({{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0);
 		.then(response => response.text());
 		.then(response => displayComments(response));
 	};
