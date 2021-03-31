@@ -4,6 +4,7 @@ title: Mounting an external drive
 parent: Filesharing
 nav_order: 2
 permalink: /filesharing/mounting-external-drive
+comments: true
 ---
 
 # Mounting an external drive

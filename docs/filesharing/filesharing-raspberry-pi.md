@@ -4,6 +4,7 @@ title: Sharing files with the Raspberry Pi
 parent: Filesharing
 nav_order: 1
 permalink: /filesharing/filesharing-raspberry-pi
+comments: true
 ---
 
 # Sharing files with the Raspberry Pi

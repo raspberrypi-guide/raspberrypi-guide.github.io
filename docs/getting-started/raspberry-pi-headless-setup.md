@@ -4,6 +4,7 @@ title: Creating a headless set-up
 parent: Getting started
 nav_order: 4
 permalink: /getting-started/raspberry-pi-headless-setup
+comments: true
 ---
 
 # Creating a headless Raspberry Pi

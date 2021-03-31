@@ -4,6 +4,7 @@ title: Installing OpenCV
 parent: Programming
 nav_order: 8
 permalink: /programming/install-opencv
+comments: true
 ---
 
 # Installing OpenCV

@@ -138,7 +138,9 @@ layout: table_wrappers
         {% if site.footer_content != nil or site.last_edit_timestamp or site.gh_edit_link %}
           <hr>
           <footer>
+            {% if page.comments %}
             {% include comment-section.html url=page.url %}
+            {% endif %}
             {% if site.footer_content != nil %}
               <p class="text-small text-grey-dk-000 mb-0">{{ site.footer_content }}</p>
             {% endif %}

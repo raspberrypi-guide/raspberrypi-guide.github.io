@@ -4,6 +4,7 @@ title: Python virtual environment
 parent: Programming
 nav_order: 2
 permalink: /programming/create-python-virtual-environment
+comments: true
 ---
 
 # Create a Python virtual environment

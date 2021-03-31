@@ -4,6 +4,7 @@ title: Create a local network
 parent: Networking
 nav_order: 3
 permalink: /networking/create-local-network
+comments: true
 ---
 
 # Create a local network

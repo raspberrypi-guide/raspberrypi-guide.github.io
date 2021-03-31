@@ -4,6 +4,7 @@ title: Setting-up a real-time clock
 parent: Electronics
 nav_order: 2
 permalink: /electronics/add-real-time-clock
+comments: true
 ---
 
 # Setting-up a real-time clock

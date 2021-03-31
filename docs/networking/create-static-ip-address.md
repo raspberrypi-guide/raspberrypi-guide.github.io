@@ -4,6 +4,7 @@ title: Set up a static IP-address
 parent: Networking
 nav_order: 5
 permalink: /networking/create-static-ip-address
+comments: true
 ---
 
 # Setting-up a static IP-address on the Raspberry Pi

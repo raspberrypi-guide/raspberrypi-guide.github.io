@@ -3,6 +3,7 @@ layout: page
 title: The Raspberry Pi
 nav_order: 1
 permalink: /raspberry-pi
+comments: true
 ---
 
 # The Raspberry Pi

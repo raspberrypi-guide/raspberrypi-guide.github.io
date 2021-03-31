@@ -4,6 +4,7 @@ title: Create wireless access point
 parent: Networking
 nav_order: 7
 permalink: /networking/create-wireless-access-point
+comments: true
 ---
 
 # Set up the Raspberry Pi as wireless access point

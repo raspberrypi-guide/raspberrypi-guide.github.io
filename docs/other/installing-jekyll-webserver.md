@@ -4,6 +4,7 @@ title: Installing Jekyll webserver
 parent: Other
 nav_order: 5
 permalink: /other/installing-jekyll-webserver
+comments: true
 ---
 
 # Install Jekyll on a Raspberry Pi

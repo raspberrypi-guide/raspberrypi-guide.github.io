@@ -4,6 +4,7 @@ title: Send email notifications
 parent: Programming
 nav_order: 5
 permalink: /programming/send-email-notifications
+comments: true
 ---
 
 # Sending automatic email from your Raspberry Pi

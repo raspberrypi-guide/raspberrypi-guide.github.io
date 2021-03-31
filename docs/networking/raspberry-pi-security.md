@@ -4,6 +4,7 @@ title: Increasing security
 parent: Networking
 nav_order: 4
 permalink: /networking/raspberry-pi-security
+comments: true
 ---
 
 # Increase the security of your Raspberry Pi

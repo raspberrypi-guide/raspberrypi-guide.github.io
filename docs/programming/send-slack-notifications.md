@@ -4,6 +4,7 @@ title: Send slack notifications
 parent: Programming
 nav_order: 7
 permalink: /programming/send-slack-notifications
+comments: true
 ---
 
 # Send notifications to slack

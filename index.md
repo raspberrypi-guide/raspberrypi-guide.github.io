@@ -3,6 +3,7 @@ layout: page
 title: Home
 nav_order: -1
 permalink: /
+comments: false
 ---
 # The Raspberry Pi Guide for scientists and anyone else!
 [![Raspberry Pi Logo](/assets/images/raspberrypi-guide-logonotext.jpg?style=titleimgright)](http://raspberrypi.org)

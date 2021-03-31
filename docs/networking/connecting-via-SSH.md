@@ -4,6 +4,7 @@ title: Connecting via SSH
 parent: Networking
 nav_order: 1
 permalink: /networking/connecting-via-ssh
+comments: true
 ---
 
 # Connecting to your Raspberry Pi via SSH

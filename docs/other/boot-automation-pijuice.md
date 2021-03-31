@@ -4,6 +4,7 @@ title: Boot automation with the PiJuice
 parent: Other
 nav_order: 3
 permalink: /other/boot-automation-pijuice
+comments: true
 ---
 
 # Automate your Raspberry Pi with PiJuice

@@ -4,6 +4,7 @@ title: (Automatic) file synchronisation
 parent: Filesharing
 nav_order: 3
 permalink: /filesharing/file-synchronisation-rsync-rclone
+comments: true
 ---
 
 # File synchronisation with rsync and rclone

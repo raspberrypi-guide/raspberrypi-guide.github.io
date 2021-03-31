@@ -4,6 +4,7 @@ title: Image and video recording
 parent: Electronics
 nav_order: 0
 permalink: /electronics/image-and-video-recording
+comments: true
 ---
 
 # IMage and video recording with the Raspberry PI

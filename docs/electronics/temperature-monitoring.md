@@ -4,6 +4,7 @@ title: Temperature monitoring
 parent: Electronics
 nav_order: 3
 permalink: /electronics/temperature-monitoring
+comments: true
 ---
 
 # Temperature monitoring with the Raspberry Pi

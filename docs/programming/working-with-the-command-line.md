@@ -4,6 +4,7 @@ title: Working with the command line
 parent: Programming
 nav_order: 1
 permalink: /programming/working-with-the-command-line
+comments: true
 ---
 
 # Working with the command line

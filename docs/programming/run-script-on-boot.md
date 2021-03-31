@@ -4,6 +4,7 @@ title: Run script on startup
 parent: Programming
 nav_order: 3
 permalink: /programming/run-script-on-boot
+comments: true
 ---
 
 # Run script on start-up on a Raspberry Pi

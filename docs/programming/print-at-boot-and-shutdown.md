@@ -4,6 +4,7 @@ title: Print at boot/shutdown
 parent: Programming
 nav_order: 4
 permalink: /programming/print-at-boot-and-shutdown
+comments: true
 ---
 
 # Print statements at boot and shut-down

@@ -23,3 +23,6 @@ disqus-shortname : animpi
 comment-post: https://docs.google.com/forms/d/e/1FAIpQLSe9F17myVLU52_B4UEdupm_Hfx5xXgTpVqgQyarNEQueNdM-A
 comment-read: https://docs.google.com/spreadsheets/d/1q3h4dpY37VssJKznU4HyBnzTGsyH1-iUmq1jTXVRoJw
 comment-post-fields: [entry.148489506, entry.1990599000, entry.1482663308]
+guestbook-post: https://docs.google.com/forms/d/e/1FAIpQLSfzPwfnqdqbreqY87rnRMAVJy0ctKFvVkYI4ehuDt8yUsswHw
+guestbook-read: https://docs.google.com/spreadsheets/d/1WvAZYJaKXP1_5F64bS77EfdDcloTOpcSDsqz5HOAtHc
+guestbook-post-fields: [entry.1188818118, entry.1863550937]

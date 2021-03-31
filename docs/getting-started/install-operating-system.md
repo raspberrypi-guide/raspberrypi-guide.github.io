@@ -4,6 +4,7 @@ title: Installing the operating system
 parent: Getting started
 nav_order: 2
 permalink: /getting-started/install-operating-system
+comments: true
 ---
 
 # Installing the operating system

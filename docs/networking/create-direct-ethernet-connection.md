@@ -4,6 +4,7 @@ title: Direct ethernet connection
 parent: Networking
 nav_order: 6
 permalink: /networking/create-direct-ethernet-connection
+comments: true
 ---
 
 # Direct connection by network cable

@@ -4,6 +4,7 @@ title: First boot configuration
 parent: Getting started
 nav_order: 3
 permalink: /getting-started/raspberry-pi-configuration
+comments: true
 ---
 
 # First boot configuration

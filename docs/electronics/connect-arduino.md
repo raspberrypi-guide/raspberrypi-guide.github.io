@@ -4,6 +4,7 @@ title: Connect an Arduino
 parent: Electronics
 nav_order: 1
 permalink: /electronics/connect-arduino
+comments: true
 ---
 
 # Connecting an Arduino to the Raspberry Pi

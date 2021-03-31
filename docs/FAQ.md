@@ -3,6 +3,7 @@ layout: page
 title: FAQ
 nav_order: 10
 permalink: /FAQ
+comments: true
 ---
 
 # Frequently Asked Questions
