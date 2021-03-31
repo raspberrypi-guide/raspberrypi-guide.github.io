@@ -99,16 +99,16 @@
 		return false;
 	};
 </script>
-<h4 class="post-subtitle">Comments</h4>
+<h2 class="comments-heading">Comments</h2>
 <div id="commentSection" class="comments">
 	<div id="no-comments" class="post-info">
-		<p>There are currently no comments on this article, be the first to add one below</p>
+		<p>There are currently no comments yet on this article, be the first to add one below!</p>
 	</div>
 </div>
-<h4 class="post-subtitle">Add a Comment</h4>
+<h2 class="comments-heading">Add a Comment</h2>
 <div class="comments">
 	<div class="post-info">
-		<p>Note that I may remove comments for any reason, so try to be civil. If you are looking for a response to your comment, either leave your email address or check back on this page periodically.</p>
+		<p>Note that I may remove comments when not appropriate, so please try to be civil :) I will try to reply as soon as I can.</p>
 	</div>
 	<div class="comments-form">
 		<form onsubmit="return postComment()" id="comment-form" autocomplete="off">
@@ -120,8 +120,13 @@
 		</form>
 	</div>
 </div>
+<hr>
 <style>
 	@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+	.comments-heading {
+		color: #139073;
+		font-size: 20px !important;
+	}
  .comment-item {
 	 position: relative;
 	 padding: 0.5em 2.5em;
@@ -170,17 +175,25 @@
 	 font-family: "Source Sans Pro", sans-serif;
 }
  .comments-form ul {
-	 list-style: none;
+	 list-style: none !important;
 	 margin-left: -40px;
 }
  .comments-form ul li {
 	 margin-bottom: 15px;
 }
+.comments-form ul li::before {
+    position: absolute;
+    margin-left: -1.4em;
+    color: #959396;
+    content: "";
+		display: none;
+	}
+
  .comments-form ul li input[type='submit'] {
 	 border: 0;
 	 border-radius: 8px;
 	 padding: 10px 10px;
-	 background: #9ccc65;
+	 background: #139073;
 	 color: #fff;
 	 font-family: "Source Sans Pro", sans-serif;
 	 font-weight: bold;

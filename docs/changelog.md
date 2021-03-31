@@ -19,6 +19,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 31/03/2021 Removed Disqus comments and added custom comments that make use of google forms. With help from JD Porterfield: https://jdvp.me/articles/Google-Forms-Jekyll-Comments
 - 29/03/2021 Finalised the homepage and contact page
 - 29/03/2021 Created page about the Raspberry Pi and the Raspberry Pi review paper
 - 26/03/2021 Optimised all images on the website to further improve load speed
