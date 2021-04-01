@@ -19,6 +19,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 01/04/2021 Textual improvements to various pages
 - 31/03/2021 Added Guestbook page
 - 30/03/2021 Removed Disqus comments and added custom comments that make use of google forms. With help from JD Porterfield: https://jdvp.me/articles/Google-Forms-Jekyll-Comments
 - 29/03/2021 Finalised the homepage and contact page

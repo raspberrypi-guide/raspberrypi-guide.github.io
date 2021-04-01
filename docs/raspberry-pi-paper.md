@@ -7,7 +7,7 @@ comments: true
 ---
 
 # The Paper
-This website accompanies the academic paper *Broad-scale Applications of the Raspberry Pi: A Review and Guide for Biologists* (Jolles, 2021), currently available as preprint!
+This website accompanies the academic paper *Broad-scale Applications of the Raspberry Pi: A Review and Guide for Biologists* (Jolles, 2021), currently available as preprint.
 {: .fs-6 .fw-300 }
 
 [![Raspberry Pi Review paper](/assets/images/raspberry-pi-paper-half.jpg?style=centerimgmed)](/assets/images/raspberry-pi-paper.jpg)
@@ -27,7 +27,7 @@ I believe low-cost micro-computers like the Raspberry Pi are a powerful tool tha
 *A compilation of Raspberry Pi applications, ranging from plant phenotyping, and smart birdfeeders, to ecosystem monitoring, and operant learning devices. For the associated articles, see the figure caption in the paper.*
 
 ## Citing
-If you find any of the material on this website useful, please share the word and consider citing the paper. That would be much appreciated!
+If you find any of the material on this website useful, please share the word. You can cite the paper as follows:
 
 ```
 @article{Jolles20201
@@ -41,4 +41,4 @@ If you find any of the material on this website useful, please share the word an
 ```
 
 ## Acknowledgements
-This work would not have been possible without financial support from the [Alexander von Humboldt-Stiftung](https://www.humboldt-foundation.de/){:target="_blank"}, the [Zukunfstkolleg](https://www.uni-konstanz.de/zukunftskolleg/){:target="_blank"}, Institute for Advanced Study at the University of Konstanz, and the [Dr. J.L. Dobberke Foundation](https://www.knaw.nl/en/awards/funds/dobberke-stichting-voor-vergelijkende-psychologie){:target="_blank"}. I also thank the [Raspberry Pi Foundation](http://raspberrypi.org){:target="_blank"} for developing this wonderful device.
+This work would not have been possible without financial support from the [Alexander von Humboldt-Stiftung](https://www.humboldt-foundation.de/){:target="_blank"}, the [Zukunfstkolleg](https://www.uni-konstanz.de/zukunftskolleg/){:target="_blank"}, Institute for Advanced Study at the University of Konstanz, and the [Dr. J.L. Dobberke Foundation](https://www.knaw.nl/en/awards/funds/dobberke-stichting-voor-vergelijkende-psychologie){:target="_blank"}. I also thank the [Raspberry Pi Foundation](http://raspberrypi.org){:target="_blank"} for developing this fantastic device.
