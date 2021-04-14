@@ -9,7 +9,7 @@ comments: true
 # Raspberry Pi Overview Guide
 {: .no_toc }
 
-This overview guide is meant to help you get started and use your Raspberry Pi at its full potential in no time, from getting the right hardware together, to networking, filesharing, and connecting electronics. Follow the links to go to the specific guides. For more background information and detail, read the preprint article!
+This overview guide is meant to help you get started and use your Raspberry Pi to its full potential in no time, from getting the right hardware together, to networking, filesharing, and connecting electronics. Follow the links to find the specific guides. For more background information and detail, read the preprint article [here](https://ecoevorxiv.org/qh9sz/)!
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -20,7 +20,7 @@ This overview guide is meant to help you get started and use your Raspberry Pi a
 ---
 
 ## Setting up and configuring
-First of all, let's make sure you have the [right hardware](getting-started/choosing-raspberry-pi-hardware.html) together. Then let's [Install the operating system](getting-started/install-operating-system) on the micro-SD card or use a pre-installed [NOOBS card](https://github.com/raspberrypi/noobs/blob/master/README.md){:target="_blank"}. If you do not have a keyboard, mouse and screen follow a couple more steps to [create a headless setup](/getting-started/raspberry-pi-headless-setup).
+To start, let's first of all make sure you have the [right hardware](getting-started/choosing-raspberry-pi-hardware.html) together. Then let's [Install the operating system](getting-started/install-operating-system) on the micro-SD card or use a pre-installed [NOOBS card](https://github.com/raspberrypi/noobs/blob/master/README.md){:target="_blank"}. If you do not have a keyboard, mouse and screen follow a couple more steps to [create a headless setup](/getting-started/raspberry-pi-headless-setup).
 
 Now plug-in the SD-card and connect the power to start your Raspberry Pi for the first time. Upon first boot let's  [configure your Raspberry Pi](/getting-started/raspberry-pi-configuration), such as to change the default password and hostname, enable various options, and make sure everything is up-to-date. For security measures you may also want to [change the default username](/networking/raspberry-pi-security). To get to know how to use the Raspberry Pi, the Raspberry Pi Foundation has a [great beginners tutorial](https://projects.raspberrypi.org/en/projects/raspberry-pi-using){:target="_blank"}.
 

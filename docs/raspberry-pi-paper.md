@@ -7,10 +7,10 @@ comments: true
 ---
 
 # The Paper
-This website accompanies the academic paper *Broad-scale Applications of the Raspberry Pi: A Review and Guide for Biologists* (Jolles, 2021), currently available as preprint.
+This website accompanies the academic paper *Broad-scale Applications of the Raspberry Pi: A Review and Guide for Biologists* (Jolles, 2021), currently [available as preprint](https://ecoevorxiv.org/qh9sz/){:target="_blank"}.
 {: .fs-6 .fw-300 }
 
-[![Raspberry Pi Review paper](/assets/images/raspberry-pi-paper-half.jpg?style=centerimgmed)](/assets/images/raspberry-pi-paper.jpg)
+[![Raspberry Pi Review paper](/assets/images/raspberry-pi-paper-half.jpg?style=centerimgmed)](https://ecoevorxiv.org/qh9sz/)
 
 ## The Raspberry Pi as a research tool
 The field of Biology has seen tremendous technological progress in recent years, fuelled by the exponential growth in processing power and high-level computing, and the rise of global information sharing.
@@ -33,10 +33,10 @@ If you find any of the material on this website useful, please share the word. Y
 @article{Jolles20201
       title = {Broad-scale Applications of the Raspberry Pi: A Review and Guide for Biologists},
       author = {Jolles, Jolle W.},
-      journal = {bioRxiv},
+      journal = {EcoEvoRxiv},
       keywords = {raspberry pi, automation, data logging, electronics, single-board computer, technology, tools},
       year = {2021}
-      doi = {10.5281/xxxxxxxx}
+      doi = {https://doi.org/10.32942/osf.io/qh9sz}
 }
 ```
 

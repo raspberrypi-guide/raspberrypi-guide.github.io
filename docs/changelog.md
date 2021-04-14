@@ -13,12 +13,13 @@ Below you can find a chronological overview of the changes made since the first 
 
 Planned improvements and additions
 {: .label .label-yellow }
-- Guide about send messages to Twitter
+- Guide about sending messages to Twitter
 - Guide for working with the Raspberry Pi camera
 - Guide for setting up an RFID reader
 
 Overview of incorporated changes
 {: .label .label-green }
+- 14/04/2021 Updated links to paper and some small textual improvements
 - 01/04/2021 Textual improvements to various pages
 - 31/03/2021 Added Guestbook page
 - 30/03/2021 Removed Disqus comments and added custom comments that make use of google forms. With help from JD Porterfield: https://jdvp.me/articles/Google-Forms-Jekyll-Comments
