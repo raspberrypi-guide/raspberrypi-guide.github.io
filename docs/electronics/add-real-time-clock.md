@@ -2,7 +2,7 @@
 layout: page
 title: Setting-up a real-time clock
 parent: Electronics
-nav_order: 2
+nav_order: 3
 permalink: /electronics/add-real-time-clock
 comments: true
 ---

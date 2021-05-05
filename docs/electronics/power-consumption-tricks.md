@@ -2,7 +2,7 @@
 layout: page
 title: Power consumption tricks
 parent: Electronics
-nav_order: 6
+nav_order: 7
 permalink: /electronics/power-consumption-tricks
 comments: true
 ---

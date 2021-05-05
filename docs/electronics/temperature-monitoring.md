@@ -2,7 +2,7 @@
 layout: page
 title: Temperature monitoring
 parent: Electronics
-nav_order: 3
+nav_order: 4
 permalink: /electronics/temperature-monitoring
 comments: true
 ---

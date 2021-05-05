@@ -2,7 +2,7 @@
 layout: page
 title: Using USB webcams
 parent: Electronics
-nav_order: 5
+nav_order: 6
 permalink: /electronics/using-usb-webcams
 comments: true
 ---

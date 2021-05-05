@@ -2,7 +2,7 @@
 layout: default
 title: Connect an Arduino
 parent: Electronics
-nav_order: 1
+nav_order: 2
 permalink: /electronics/connect-arduino
 comments: true
 ---
