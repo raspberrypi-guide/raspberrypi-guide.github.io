@@ -7,7 +7,7 @@ permalink: /electronics/connect-arduino
 comments: true
 ---
 
-# Connecting an Arduino to the Raspberry Pi
+# Connect an Arduino to the Raspberry Pi
 {: .no_toc }
 
 In some cases it may be very helpful to combine an Arduino with a Raspberry Pi. Luckily this is very straight-forward to do

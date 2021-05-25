@@ -2,7 +2,7 @@
 layout: page
 title: Installing Jekyll webserver
 parent: Other
-nav_order: 5
+nav_order: 4
 permalink: /other/installing-jekyll-webserver
 comments: true
 ---

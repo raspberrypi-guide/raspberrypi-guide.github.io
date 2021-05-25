@@ -7,7 +7,7 @@ permalink: /programming/install-opencv
 comments: true
 ---
 
-# Installing OpenCV
+# Install OpenCV on your Raspberry Pi
 {: .no_toc }
 
 Below I guide you through the basic steps necessary to get OpenCV working on the Raspberry Pi as well as on Ubuntu and Mac.

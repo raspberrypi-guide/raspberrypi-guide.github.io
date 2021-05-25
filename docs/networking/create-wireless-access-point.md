@@ -7,7 +7,7 @@ permalink: /networking/create-wireless-access-point
 comments: true
 ---
 
-# Set up the Raspberry Pi as wireless access point
+# Set up your Raspberry Pi as wireless access point
 {: .no_toc }
 
 A great and flexible way to connect remotely to your Raspberry Pi, especially when no networks are available, is to set it up as a wireless access point. This is not trivial, but below I guide you through the steps to set this up.

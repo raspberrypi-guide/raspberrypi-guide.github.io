@@ -2,7 +2,7 @@
 layout: default
 title: Boot automation with the PiJuice
 parent: Other
-nav_order: 3
+nav_order: 2
 permalink: /other/boot-automation-pijuice
 comments: true
 ---

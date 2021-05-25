@@ -7,7 +7,7 @@ permalink: /electronics/image-and-video-recording
 comments: true
 ---
 
-# IMage and video recording with the Raspberry PI
+# Image and video recording with the Raspberry PI
 {: .no_toc }
 
 The Raspberry Pi is a great tool for controlled and automated image and video recording. Below I help you get started!

@@ -7,7 +7,7 @@ permalink: /filesharing/filesharing-raspberry-pi
 comments: true
 ---
 
-# Sharing files with the Raspberry Pi
+# Filesharing with the Raspberry Pi
 {: .no_toc }
 
 There are many ways to connect to see, copy, and edit files on a Raspberry Pi. Samba is one of the most versatile and is easy to configure to share directories with both Linux, Mac, and Windows operating systems.

@@ -7,7 +7,7 @@ permalink: /getting-started/raspberry-pi-headless-setup
 comments: true
 ---
 
-# Creating a headless Raspberry Pi
+# Create a headless Raspberry Pi setup
 {: .no_toc }
 
 Using a standard operating system installation you won't be able to connect to your Raspberry Pi remotely upon first boot. However, with a couple easy steps this is possible, thus overcoming the need for any keyboard or mouse to be attached.

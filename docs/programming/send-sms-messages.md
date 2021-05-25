@@ -7,7 +7,7 @@ permalink: /programming/send-sms-messages
 comments: true
 ---
 
-# Sending a text message (SMS) with your Raspberry Pi
+# Send automatic text messages (SMS) with your Raspberry Pi
 {: .no_toc }
 
 Using Twilio we can use our Raspberry Pi to send text messages to any phone number. Follow the below steps to get started!

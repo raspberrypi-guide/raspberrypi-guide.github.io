@@ -7,7 +7,7 @@ permalink: /getting-started/raspberry-pi-configuration
 comments: true
 ---
 
-# First boot configuration
+# First boot configuration steps
 {: .no_toc }
 
 Upon first boot of your Raspberry Pi it is good to make a number of changes to the configuration to finish setting it up. Below I provide the key steps for both the Desktop interface and when using the command line.

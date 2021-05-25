@@ -7,7 +7,7 @@ permalink: /electronics/add-real-time-clock
 comments: true
 ---
 
-# Setting-up a real-time clock
+# Add a real-time clock to your Raspberry Pi
 {: .no_toc }
 
 The Raspberry Pi keeps track of time by checking the internet, which becomes problematic when no internet connection is available. In this guide I explain how to add a real-time clock.

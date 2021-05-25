@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Increasing security
-parent: Networking
-nav_order: 4
-permalink: /networking/raspberry-pi-security
+parent: Other
+nav_order: 1
+permalink: /other/Improve-raspberry-pi-security
 comments: true
 ---
 
-# Increase the security of your Raspberry Pi
+# Improve Raspberry Pi security
 {: .no_toc }
 
 When working with the Raspberry Pi, it is a good idea to keep the following security considerations in mind.

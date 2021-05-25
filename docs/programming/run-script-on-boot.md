@@ -7,7 +7,7 @@ permalink: /programming/run-script-on-boot
 comments: true
 ---
 
-# Run script on start-up on a Raspberry Pi
+# Run script on start-up with your Raspberry Pi
 {: .no_toc }
 
 For some specific use cases it may be very handy to have a script automatically run when the Raspberry Pi boots up. Below I help you set this up.

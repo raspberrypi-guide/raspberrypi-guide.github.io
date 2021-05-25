@@ -7,7 +7,7 @@ permalink: /programming/send-email-notifications
 comments: true
 ---
 
-# Sending automatic email from your Raspberry Pi
+# Send automatic emails with your Raspberry Pi
 {: .no_toc }
 
 Using the Raspberry Pi it is quite easy to send automatic emails, such as warning messages or notifications. There are various ways to do this. Here I suggest to use the Yagmail library and Python.

@@ -7,7 +7,7 @@ permalink: /electronics/control-electronics-with-a-relay
 comments: true
 ---
 
-# Controlling electronics using a relay switch
+# Control electronics using a relay switch
 {: .no_toc }
 
 A relay module makes it possible to use the Raspberry Pi to control the power provided to other electronics, which can be extremely useful for a large variety of projects. Here I outline the basics to get started.

@@ -7,7 +7,7 @@ permalink: /programming/send-slack-notifications
 comments: true
 ---
 
-# Send notifications to slack
+# Send automatic Slack notifications with your Raspberry Pi
 {: .no_toc }
 
 Slack is a great messaging tool that is increasingly used by research groups and can  be used to send messages automatically from your Raspberry Pi, such as to send warnings based on sensor readings.

@@ -7,7 +7,7 @@ permalink: /getting-started/install-operating-system
 comments: true
 ---
 
-# Installing the operating system
+# Install the operating system
 {: .no_toc }
 
 The Raspberry Pi does not come as a pre-installed computer, but luckily installing an operating system for your Raspberry Pi has become easier then ever before.

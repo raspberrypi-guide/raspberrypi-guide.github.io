@@ -7,7 +7,7 @@ permalink: /networking/create-direct-ethernet-connection
 comments: true
 ---
 
-# Direct connection by network cable
+# Connect directly to your Raspberry Pi by network cable
 {: .no_toc }
 
 In some cases, one may want a more direct connection with the Raspberry Pi, such as when neither a wireless nor a wired network are available. Below I describe how to configure a direct computer-to-computer connection using an ethernet cable.

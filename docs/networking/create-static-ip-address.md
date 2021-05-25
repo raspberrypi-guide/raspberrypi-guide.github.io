@@ -3,11 +3,11 @@ layout: page
 title: Set up a static IP-address
 parent: Networking
 nav_order: 5
-permalink: /networking/create-static-ip-address
+permalink: /networking/set-up-static-ip-address
 comments: true
 ---
 
-# Setting-up a static IP-address on the Raspberry Pi
+# Set up a static IP-address on the Raspberry Pi
 {: .no_toc }
 
 By default, the Raspberry Pi will get a dynamically allocated IP-address, meaning it changes as you restart it or potentially when new devices are added to the network. To make it easier to connect and have a more stable connection I recommend to set up a static IP address.

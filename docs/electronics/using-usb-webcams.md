@@ -7,7 +7,7 @@ permalink: /electronics/using-usb-webcams
 comments: true
 ---
 
-# Using USB webcams with the Raspberry Pi
+# Working with USB webcams on your Raspberry Pi
 {: .no_toc }
 
 In most cases it is best to use a Raspberry Pi camera module. However, to help you with those cases you still want to use a USB webcam, follow the below guide.

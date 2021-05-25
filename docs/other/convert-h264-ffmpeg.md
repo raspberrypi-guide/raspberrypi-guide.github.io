@@ -2,12 +2,12 @@
 layout: page
 title: Convert .h264 videos with ffmpeg
 parent: Other
-nav_order: 9
+nav_order: 3
 permalink: /other/convert-h264-ffmpeg
 comments: true
 ---
 
-# Installing FFmpeg on a Raspberry Pi with .h264 support
+# Install FFmpeg on a Raspberry Pi with .h264 support
 {: .no_toc }
 
 FFMpeg is a great and highly versatile utility for converting image and video from the command line. Follow the below steps to learn how to install and use FFMpeg.

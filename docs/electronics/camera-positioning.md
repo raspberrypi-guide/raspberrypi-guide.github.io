@@ -7,7 +7,7 @@ permalink: /electronics/camera-positioning
 comments: true
 ---
 
-# Positioning the Raspberry Pi camera
+# Optimal positioning of the Raspberry Pi camera
 {: .no_toc }
 
 In this guide I will help you optimally position the Raspberry Pi Camera
