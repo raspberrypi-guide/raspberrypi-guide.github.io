@@ -19,6 +19,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 06/07/2021 Updated paper page with details of Methods in Ecology and Evolution
 - 25/05/2021 Improved titles and urls of various guides
 - 05/05/2021 Added camera positioning guide [here](electronics/camera-positioning)
 - 30/04/2021 Added an article on using relays [here](electronics/control-electronics-with-a-relay)
