@@ -7,10 +7,12 @@ comments: true
 ---
 
 # The Paper
-This website accompanies the academic paper *Broad-scale Applications of the Raspberry Pi: A Review and Guide for Biologists* (Jolles, 2021), published in Methods in Ecology and Evolution, {: .label .label-green }Open Access, available [here](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13652){:target="_blank"}.
+This website accompanies the academic paper *Broad-scale Applications of the Raspberry Pi: A Review and Guide for Biologists* (Jolles, 2021), published in Methods in Ecology and Evolution.
 {: .fs-6 .fw-300 }
 
 [![Raspberry Pi Review paper](/assets/images/raspberry-pi-paper-mee.jpg?style=centerimgmed)](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13652)
+
+Download the paper Open Access [here](https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13652){:target="_blank"}
 
 ## The Raspberry Pi as a research tool
 The field of Biology has seen tremendous technological progress in recent years, fuelled by the exponential growth in processing power and high-level computing, and the rise of global information sharing.
