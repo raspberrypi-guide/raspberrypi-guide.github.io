@@ -110,3 +110,17 @@ convert --indir VIDEOS --outdir CONVERTED --withframe True --resizeval 0.5
 ```
 
 You can read its documentation [here](https://github.com/JolleJolles/pirecorder/wiki/pirecorder-convert/){:target="_blank"}.
+
+## MP4Box alternative
+I recommend to use ffmpeg because of its huge array of options for converting images and videos. But `MP4Box` provides a quicker and simpler alternative. 
+
+To install, type:
+
+```
+sudo apt-get install gpac
+```
+
+And then to convert a video:
+```
+mp4box -add USER_VIDEO.h264 USER_VIDEO.mp4
+```
