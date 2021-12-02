@@ -33,11 +33,13 @@ Download the Raspberry Pi installer from the ([raspberrypi.org/downloads/](raspb
 
 The first thing to do is to select the Operating System. In general I suggest to choose the Raspberry Pi OS, although a range of other Operating Systems are available to select. By selecting the top option, the software will download the latest image file (>1gb) from the internet.
 
-If you want to install the SD-card offline (or already have an image file on your computer), you need to select the *Use custom* option at the bottom of the list. The latest image files can be found online on the Raspberry Pi website [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit).
+*Note:* The latest Raspberry Pi OS (Bullseye) does not yet have good image and video recording support, so I would recommend to install the previous OS Buster. You can manually download it from [this page](https://downloads.raspberrypi.org/) under "raspios". Other OS can be found [here](https://www.raspberrypi.org/software/operating-systems/#raspberry-pi-os-32-bit).
 
 The good thing is that when you have already once downloaded the Raspberry Pi Image, you can use a cached version by selecting the second option in the list (*Raspberry pi OS (other)*, and then selecting your cached version.
 
 [![Raspberry Pi Imager cached](/assets/images/raspberrypi-imager-cached.jpg?style=centerimgmed)](/assets/images/raspberrypi-imager-cached.jpg)
+
+If you want to use an image file (such as to install the SD-card offline), you need to select the *Use custom* option at the bottom of the list.
 
 Next make sure your SD-card is mounted on your computer, click the *STORAGE* button, and select your SD-card. If it is not shown, try to remount it on your computer.
 

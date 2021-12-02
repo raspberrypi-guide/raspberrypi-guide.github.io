@@ -50,7 +50,7 @@ Finally, it is also possible to connect and control a DSLR from the Raspberry Pi
 Setting-up the camera is as simple as plugging in the ribbon cable into the camera and the Camera Serial Interface on the Raspberry Pi. If you are struggling, I suggest to follow the great and easy tutorial by the Raspberry Pi Foundation [here](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}.
 
 ## Recording options with the Raspberry Pi
-There are a variety of software packages to record with the Raspberry Pi. Here I provide a short description of some of the main solutions. For further details, follow the links provided below.
+There are a variety of software packages to record with the Raspberry Pi. Here I provide a short description of some of the main solutions. For further details, follow the links provided below. Note that the latest Raspberry Pi OS (Bullseye) changed the recording modules, so using an older OS such as Buster is recommended!
 
 ### raspicam
 First, one can control the camera module directly from the command line with the native raspicam command line tools, which include `raspistill` to take still images and `raspivid` for videos. These provide a wide range of recording options, including the possibility to preview the camera stream, adjust the camera settings (e.g. contrast, brightness, saturation, iso, shutter speed), and set exposure mode and white balance.
