@@ -10,9 +10,7 @@ comments: false
 Thanks for visiting my website, I look forward hearing from you!
 {: .fs-6 .fw-300 }
 
-If you just want to say hi :) and wanna leave a quick message about the website and/or paper for me and anyone else to read, please do so on the [guestbook page](/guestbook)!
-
-If you'd like to send me a more specific message or question, you can [send me an email](mailto:j.w.jolles@gmail.com).
+If you'd like to send me a more specific message or question, you can <a href='&#109;&#97;i&#108;t&#111;&#58;%&#54;A&#46;&#119;&#46;jolle&#37;73&#64;&#103;&#109;a&#37;69%6C&#46;%63om'> send me an email</a>.
 
 If you have a question or feedback regarding a specific guide, please leave a comment below that guide such that others can also see it.
 
