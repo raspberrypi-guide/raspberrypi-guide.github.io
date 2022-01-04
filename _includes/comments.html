@@ -1,5 +1,6 @@
 {% if page.comments != false %}
-<div id="disqus_thread"><strong>DISQ Comments</strong></div>
+<h2 class="comments-heading">Comments</h2>
+<div id="disqus_thread"></div>
 <script>
   var disqus_config = function () {
     this.page.url = '{{ page.url | absolute_url }}';
