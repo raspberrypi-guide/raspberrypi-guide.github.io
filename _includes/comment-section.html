@@ -19,7 +19,7 @@
 		var date = new Date(stringDate);
 		var dateOptions = { year: 'numeric', month: 'long', day: 'numeric'};
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
-		return `${date.toLocaleDateString("en-GB", dateOptions)} at ${date.toLocaleTimeString("en-GB", timeOptions)}`;
+		return `${date.toLocaleDateString("en-US", dateOptions)} at ${date.toLocaleTimeString("en-US", timeOptions)}`;
 	};
 
 	function displayComments(comments) {
@@ -30,7 +30,7 @@
 			return;
 		}
 
-		comments = `timestamp,name,email,comment,isAuthor\n${comments}`;
+		comments = `timestamp,email,name,comment,isAuthor\n${comments}`;
 		commentList = $.csv.toObjects(comments);
 
 		commentList.forEach(function(element) {
@@ -60,7 +60,7 @@
 	};
 
 	function reloadComments() {
-		var sqlStatement = encodeURIComponent(`SELECT A, B, D, E, F, G WHERE C = '${thisPageUrl}'`);
+		var sqlStatement = encodeURIComponent(`SELECT A, B, D, E, F WHERE C = '${thisPageUrl}'`);
 		fetch(`{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`)
 		.then(response => response.text())
 		.then(response => displayComments(response));
@@ -116,9 +116,9 @@
 	<div class="comments-form">
 		<form onsubmit="return postComment()" id="comment-form" autocomplete="off">
 			<ul>
-				<li><input id="comment-name" name="username" type="text" placeholder="Name" required="" value=""></li>
-				<li><input id="comment-email" name="email" type="text" placeholder="Email" required="" value=""></li>
-				<li><textarea id="comment-comment" name="comment" placeholder="Comment" required=""></textarea></li>
+				<li><input id="comment-name" name="username" type="text" placeholder="Name*" required="" value=""></li>
+				<li><input id="comment-email" name="email" type="text" placeholder="Email" value=""></li>
+				<li><textarea id="comment-comment" name="comment" placeholder="Comment*" required=""></textarea></li>
 				<li><input id="comment-submit" type="submit" value="Post"></li>
 			</ul>
 		</form>
