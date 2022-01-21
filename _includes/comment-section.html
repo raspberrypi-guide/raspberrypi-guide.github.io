@@ -16,10 +16,19 @@
 	var visibleComments = [];
 
 	function formatDate(stringDate) {
-		var date = new Date(stringDate);
+		let dateComponents = stringDate.split(' ');
+		let datePieces = dateComponents[0].split("/");
+		let timePieces = dateComponents[1].split(":");
+		var date = new Date(datePieces[2], datePieces[1], datePieces[0], timePieces[0], timePieces[1], timePieces[2]);
 		var dateOptions = { day: 'numeric', month: 'long', year: 'numeric', };
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
 		return `${date.toLocaleDateString("en-GB", dateOptions)} at ${date.toLocaleTimeString("en-GB", timeOptions)}`;
+		
+    let dateComponents = fulldate.split(' ');
+    let datePieces = dateComponents[0].split("/");
+    let timePieces = dateComponents[1].split(":");
+    var thedate = new Date(datePieces[2], datePieces[1], datePieces[0], timePieces[0], timePieces[1], timePieces[2])
+    console.log(thedate.toLocaleTimeString("en-GB"))
 	};
 
 	function displayComments(comments) {
