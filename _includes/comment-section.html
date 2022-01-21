@@ -19,7 +19,7 @@
 		var date = new Date(stringDate);
 		var dateOptions = { year: 'numeric', month: 'long', day: 'numeric'};
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
-		return `${date.toLocaleDateString("en-uk", dateOptions)} at ${date.toLocaleTimeString("en-uk", timeOptions)}`;
+		return `${date.toLocaleDateString("en-GB", dateOptions)} at ${date.toLocaleTimeString("en-GB", timeOptions)}`;
 	};
 
 	function displayComments(comments) {
@@ -87,8 +87,8 @@
 		  },
 		  body: encodeFormData({
 		  	"{{ site.comment-post-fields[0] }}" : thisPageUrl,
-		  	"{{ site.comment-post-fields[1] }}" : username,
-			"{{ site.comment-post-fields[2] }}" : email,
+		  	"{{ site.comment-post-fields[2] }}" : username,
+			"{{ site.comment-post-fields[1] }}" : email,
 		  	"{{ site.comment-post-fields[3] }}" : comment
 		  })
 		}).then(response => {
