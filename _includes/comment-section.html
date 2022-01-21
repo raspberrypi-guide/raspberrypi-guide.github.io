@@ -19,7 +19,7 @@
 		var date = new Date(stringDate);
 		var dateOptions = { year: 'numeric', month: 'long', day: 'numeric'};
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
-		return `${date.toLocaleDateString("en-us", dateOptions)} at ${date.toLocaleTimeString("en-us", timeOptions)}`;
+		return `${date.toLocaleDateString("en-us", dateOptions)} at ${date.toLocaleTimeString("en-uk", timeOptions)}`;
 	};
 
 	function displayComments(comments) {
@@ -30,7 +30,7 @@
 			return;
 		}
 
-		comments = `timestamp,name,comment,isAuthor\n${comments}`;
+		comments = `timestamp,email,name,comment,isAuthor\n${comments}`;
 		commentList = $.csv.toObjects(comments);
 
 		commentList.forEach(function(element) {
