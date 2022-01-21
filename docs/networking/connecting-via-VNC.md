@@ -41,7 +41,7 @@ Now click on `Interfaces` and click `enable` next to VNC and click `OK`.
 To enable VNC via the terminal, open a terminal window and enter `sudo raspi-config`. Now with the arrows select `Interfacing Options`, navigate to `VNC`, choose `Yes`, and select `Ok`.
 
 ## Connecting via VNC
-Next, install the VNC Viewer software on your other device ([download link]([https://www.realvnc.com/en/connect/download/viewer/){:target="_blank"}. Now get the IP-address of your Raspberry Pi by typing in:
+Next, install the VNC Viewer software on your other device ([download link](https://www.realvnc.com/en/connect/download/viewer/){:target="_blank"}. Now get the IP-address of your Raspberry Pi by typing in:
 
 ```
 hostname -I
