@@ -60,7 +60,7 @@
 	};
 
 	function reloadComments() {
-		var sqlStatement = encodeURIComponent(`SELECT A, B, C, D, E WHERE B = '${thisPageUrl}'`);
+		var sqlStatement = encodeURIComponent(`SELECT A, B, C, D, E WHERE C = '${thisPageUrl}'`);
 		fetch(`{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`)
 		.then(response => response.text())
 		.then(response => displayComments(response));
