@@ -70,6 +70,8 @@ If you still get an error message such as *Could not find a version that satisfi
 sudo apt-get install python-opencv
 ```
 
+It may also be that you need to use `pip3` instead of pip to not get an error, which may be the case when you also still have Python2.7 installed and pip associated with that Python version.
+
 ## Testing
 Now let's just make sure that OpenCV is working. Open a terminal window and enter `python3` to start Python. Now to make sure you have installed OpenCV correctly enter:
 
