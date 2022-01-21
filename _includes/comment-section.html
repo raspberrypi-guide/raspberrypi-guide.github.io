@@ -19,7 +19,7 @@
 		var date = new Date(stringDate);
 		var dateOptions = { day: 'numeric', month: 'long', year: 'numeric', };
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
-		return `${date.toLocaleDateString("en-US", dateOptions)} at ${date.toLocaleTimeString("en-US", timeOptions)}`;
+		return `${date.toLocaleDateString("en-GB", dateOptions)} at ${date.toLocaleTimeString("en-GB", timeOptions)}`;
 	};
 
 	function displayComments(comments) {
