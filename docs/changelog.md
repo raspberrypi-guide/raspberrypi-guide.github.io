@@ -20,6 +20,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 21/01/2022 Improved and fixed the commenting system so users can now add a email address for me to easily reply to, and posts are shown with the correct date and in the right order.
 - 21/01/2022 Added note about pip vs pip3 in the Installing OpenCV guide (thanks to [roaldarbol](https://github.com/roaldarbol))
 - 02/12/2021 Updated pages with note about Bullseye OS and issues with recording, with solutions
 - 06/07/2021 Updated paper page with details of Methods in Ecology and Evolution
