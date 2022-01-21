@@ -52,7 +52,7 @@ sudo apt-get install build-essential cmake pkg-config libjpeg-dev libtiff5-dev l
 ```
 
 ## Install OpenCV with pip
-Finally, we can enter install OpenCV very simply with the command:
+Finally, we can enter install OpenCV very simply using pip. Note that if you still have python2.7 on your system and you are not working with a virtual environment with python3, you will need to type in `pip3` rather than `pip`:
 
 ```
 pip install opencv-contrib-python
@@ -69,8 +69,6 @@ If you still get an error message such as *Could not find a version that satisfi
 ```
 sudo apt-get install python-opencv
 ```
-
-It may also be that you need to use `pip3` instead of pip to not get an error, which may be the case when you also still have Python2.7 installed and pip associated with that Python version.
 
 ## Testing
 Now let's just make sure that OpenCV is working. Open a terminal window and enter `python3` to start Python. Now to make sure you have installed OpenCV correctly enter:
