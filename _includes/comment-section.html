@@ -19,7 +19,7 @@
 		let dateComponents = stringDate.split(' ');
 		let datePieces = dateComponents[0].split("/");
 		let timePieces = dateComponents[1].split(":");
-		var date = new Date(datePieces[2], datePieces[1], datePieces[0], timePieces[0], timePieces[1], timePieces[2]);
+		var date = new Date(datePieces[1], datePieces[2], datePieces[0], timePieces[0], timePieces[1], timePieces[2]);
 		var dateOptions = { day: 'numeric', month: 'long', year: 'numeric'};
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
 		return `${date.toLocaleDateString("en-GB", dateOptions)} at ${date.toLocaleTimeString("en-GB", timeOptions)}`;
@@ -114,7 +114,7 @@
 <h2 class="comments-heading">Add a Comment</h2>
 <div class="comments">
 	<div class="post-info">
-		<p>Note that I may remove comments when not appropriate, so please try to be civil :) I will try to reply as soon as I can.</p>
+		<p>Thanks for wanting to leave a comment, I will try to reply as soon as I can! If you want to be notified, please also include your email address, which will be kept private.</p>
 	</div>
 	<div class="comments-form">
 		<form onsubmit="return postComment()" id="comment-form" autocomplete="off">
