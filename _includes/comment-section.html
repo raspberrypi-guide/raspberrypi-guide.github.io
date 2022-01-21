@@ -17,7 +17,7 @@
 
 	function formatDate(stringDate) {
 		var date = new Date(stringDate);
-		var dateOptions = { year: 'numeric', month: 'long', day: 'numeric'};
+		var dateOptions = { day: 'numeric', month: 'long', year: 'numeric', };
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
 		return `${date.toLocaleDateString("en-US", dateOptions)} at ${date.toLocaleTimeString("en-US", timeOptions)}`;
 	};
@@ -30,7 +30,7 @@
 			return;
 		}
 
-		comments = `timestamp,name,comment,isAuthor\n${comments}`;
+		comments = `timestamp,email,name,comment,isAuthor\n${comments}`;
 		commentList = $.csv.toObjects(comments);
 
 		commentList.forEach(function(element) {
@@ -60,7 +60,7 @@
 	};
 
 	function reloadComments() {
-		var sqlStatement = encodeURIComponent(`SELECT A, D, E, F WHERE C = '${thisPageUrl}'`);
+		var sqlStatement = encodeURIComponent(`SELECT A, C, D, E, F WHERE B = '${thisPageUrl}'`);
 		fetch(`{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`)
 		.then(response => response.text())
 		.then(response => displayComments(response));
