@@ -60,7 +60,7 @@
 	};
 
 	function reloadComments() {
-		var sqlStatement = encodeURIComponent(`SELECT A, C, D, E WHERE B = '${thisPageUrl}'`);
+		var sqlStatement = encodeURIComponent(`SELECT A, B, C, D, E WHERE C = '${thisPageUrl}'`);
 		fetch(`{{ site.comment-read }}/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`)
 		.then(response => response.text())
 		.then(response => displayComments(response));
@@ -76,6 +76,7 @@
 
 	function postComment() {
 		var username = $("#comment-name").val();
+		var email = $("#comment-email").val();
 		var comment = $("#comment-comment").val();
 
 		fetch(`{{ site.comment-post }}/formResponse`, {
@@ -87,7 +88,8 @@
 		  body: encodeFormData({
 		  	"{{ site.comment-post-fields[0] }}" : thisPageUrl,
 		  	"{{ site.comment-post-fields[1] }}" : username,
-		  	"{{ site.comment-post-fields[2] }}" : comment
+			"{{ site.comment-post-fields[2] }}" : email,
+		  	"{{ site.comment-post-fields[3] }}" : comment
 		  })
 		}).then(response => {
 			$("#comment-name").val('');
@@ -114,6 +116,7 @@
 		<form onsubmit="return postComment()" id="comment-form" autocomplete="off">
 			<ul>
 				<li><input id="comment-name" name="username" type="text" placeholder="Name" required="" value=""></li>
+				<li><input id="comment-email" name="email" type="text" placeholder="Email" required="" value=""></li>
 				<li><textarea id="comment-comment" name="comment" placeholder="Comment" required=""></textarea></li>
 				<li><input id="comment-submit" type="submit" value="Post"></li>
 			</ul>
