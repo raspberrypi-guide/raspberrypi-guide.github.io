@@ -88,3 +88,26 @@ sudo mount -a
 ```
 
 If the drive does somehow not mount, try adding `uid=1000,gid=1000,iocharset=utf8` to the fstab command.
+
+## Drive not mounting at startup
+The drives added to your fstab file should be automatically mounted upon startup. In some cases this does not happen, which may be to due with the type of drive you are mounting (e.g. `cifs`) or that your Raspberry Pi has not yet connected to the network at the mounting it is trying to mount the drive. To help overcome this I found it is best to add a mount command to the rc.local file. To do so, edit the rc.local file:
+
+```
+sudo nano /etc/rc.local
+```
+
+scroll to the bottom and just above `exit 0` add your command:
+
+```
+# Mount drive
+sleep 5
+sudo mount -t cifs //<drive location> <mount location> -o user=<username>,password=<password>
+```
+
+making sure to change the parameters within the <> brackets. The `sleep 5` command is needed to let the Raspberry Pi wait for a couple seconds to properly connect to the network and mount the drive.
+
+Finally make  sure that the file rc.local is executable otherwise it will not run:
+
+```
+sudo chmod +x /etc/rc.local
+```

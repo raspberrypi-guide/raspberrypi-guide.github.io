@@ -67,6 +67,13 @@ python3 /home/pi/myscript.py &
 
 The ampersand allows the command to run in a separate process and continue booting with the process running.
 
+## Wait for network
+It can be that rc.local is run before the Raspberry Pi has connected to the network. The simplest way to fix this is to add a simple command to have the Raspberry Pi wait for a couple seconds:
+
+```
+sleep 5
+```
+
 ## Write to logfile
 If you want to simultaneously write a logfile, run the command as follows:
 

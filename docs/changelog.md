@@ -20,6 +20,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 21/02/2022 Extended mounting drive page to explain how to automount a network drive upon boot as well as the run-script-on-boot page to explain how the rc.local file can be used to wait until it is connected to the network
 - 21/01/2022 Improved and fixed the commenting system so users can now add a email address for me to easily reply to, and posts are shown with the correct date and in the right order.
 - 21/01/2022 Added note about pip vs pip3 in the Installing OpenCV guide (thanks to [roaldarbol](https://github.com/roaldarbol))
 - 02/12/2021 Updated pages with note about Bullseye OS and issues with recording, with solutions
