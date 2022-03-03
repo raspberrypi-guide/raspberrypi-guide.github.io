@@ -149,6 +149,6 @@ Pirecorder comes with a dedicated documentation website with detailed informatio
 [![MotionEye](/assets/images/motioneye.jpg?style=centerimgmed)](/assets/images/motioneye.jpg)
 
 ### RPi Cam Web Interface
-Finally, [RPi Cam Web Interface](elinux.org/RPi-Cam-Web-Interface){:target="_blank"} is another web interface for the Raspberry Pi Camera module that provides high configurability and can be used for a wide variety of applications.
+Finally, [RPi Cam Web Interface](https://elinux.org/RPi-Cam-Web-Interface){:target="_blank"} is another web interface for the Raspberry Pi Camera module that provides high configurability and can be used for a wide variety of applications.
 
 [![RPi Cam Web Interface](/assets/images/RPi-Cam-Web-Interface.jpg?style=centerimgmed)](/assets/images/RPi-Cam-Web-Interface.jpg)
