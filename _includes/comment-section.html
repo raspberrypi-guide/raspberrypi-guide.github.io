@@ -43,7 +43,7 @@
 
 			var verifiedAuthorTag = "";
 			if (element.isAuthor === "TRUE") {
-				verifiedAuthorTag = "&nbsp;<div class="commentauthor">(Author)</div>";
+				verifiedAuthorTag = "&nbsp;<strong>(Author)</strong>";
 			};
 
 			var newItem = $(`
@@ -104,7 +104,7 @@
 </script>
 <h2 class="comments-heading">Comments</h2>
 <div id="commentSection" class="comments">
-	<div id="no-comments" class="post-info"></div>
+	<div id="no-comments" class="post-info"><p>There are currently not any comments yet.</p></div>
 </div>
 <h3 class="comments-heading">Add a Comment</h3>
 <div class="comments">
