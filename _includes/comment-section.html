@@ -43,7 +43,7 @@
 
 			var verifiedAuthorTag = "";
 			if (element.isAuthor === "TRUE") {
-				verifiedAuthorTag = "&nbsp;<strong>(Author)</strong>";
+				verifiedAuthorTag = "&nbsp;<div class="commentauthor">(Author)</div>";
 			};
 
 			var newItem = $(`
@@ -79,7 +79,6 @@
 
 	function postComment() {
 		var username = $("#comment-name").val();
-		var email = $("#comment-email").val();
 		var comment = $("#comment-comment").val();
 
 		fetch(`{{ site.comment-post }}/formResponse`, {
@@ -91,12 +90,10 @@
 		  body: encodeFormData({
 		  	"{{ site.comment-post-fields[0] }}" : thisPageUrl,
 		  	"{{ site.comment-post-fields[1] }}" : username,
-			"{{ site.comment-post-fields[2] }}" : email,
 		  	"{{ site.comment-post-fields[3] }}" : comment
 		  })
 		}).then(response => {
 			$("#comment-name").val('');
-			$("#comment-email").val('');
 			$("#comment-comment").val('');
 			reloadComments();
 		})
@@ -107,21 +104,18 @@
 </script>
 <h2 class="comments-heading">Comments</h2>
 <div id="commentSection" class="comments">
-	<div id="no-comments" class="post-info">
-		<p>There are currently no comments yet on this article, be the first to add one below!</p>
-	</div>
+	<div id="no-comments" class="post-info"></div>
 </div>
 <h2 class="comments-heading">Add a Comment</h2>
 <div class="comments">
 	<div class="post-info">
-		<p>Thanks for wanting to leave a comment, I will try to reply as soon as I can! If you want to be notified, please also include your email address, which will be kept private.</p>
+		<p>Please leave your comment below. If you'd like to be notified of my reply, please also send your comment as [an email to me](mailto:j.w.jolles@gmail.com). I will try to reply as soon as I can. Thanks!</p>
 	</div>
 	<div class="comments-form">
 		<form onsubmit="return postComment()" id="comment-form" autocomplete="off">
 			<ul>
-				<li><input id="comment-name" name="username" type="text" placeholder="Name*" required="" value=""></li>
-				<li><input id="comment-email" name="email" type="text" placeholder="Email" value=""></li>
-				<li><textarea id="comment-comment" name="comment" placeholder="Comment*" required=""></textarea></li>
+				<li><input id="comment-name" name="username" type="text" placeholder="Name" required="" value=""></li>
+				<li><textarea id="comment-comment" name="comment" placeholder="Comment" required=""></textarea></li>
 				<li><input id="comment-submit" type="submit" value="Post"></li>
 			</ul>
 		</form>
