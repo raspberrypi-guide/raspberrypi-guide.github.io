@@ -33,7 +33,7 @@
 			return;
 		}
 
-		comments = `timestamp,email,name,comment,isAuthor\n${comments}`;
+		comments = `timestamp,name,comment,isAuthor\n${comments}`;
 		commentList = $.csv.toObjects(comments);
 
 		commentList.forEach(function(element) {
@@ -106,7 +106,7 @@
 <div id="commentSection" class="comments">
 	<div id="no-comments" class="post-info"></div>
 </div>
-<h2 class="comments-heading">Add a Comment</h2>
+<h3 class="comments-heading">Add a Comment</h3>
 <div class="comments">
 	<div class="post-info">
 		<p>Please leave your comment below. If you'd like to be notified of my reply, please also send your comment as [an email to me](mailto:j.w.jolles@gmail.com). I will try to reply as soon as I can. Thanks!</p>
