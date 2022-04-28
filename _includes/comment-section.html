@@ -43,7 +43,7 @@
 
 			var verifiedAuthorTag = "";
 			if (element.isAuthor === "TRUE") {
-				verifiedAuthorTag = "&nbsp;<strong>(Author)</strong>";
+				verifiedAuthorTag = "&nbsp;<div class="commentauthor">(Author)</div>";
 			};
 
 			var newItem = $(`
@@ -106,7 +106,7 @@
 <div id="commentSection" class="comments">
 	<div id="no-comments" class="post-info"><p>There are currently not any comments yet.</p></div>
 </div>
-<h3 class="comments-heading">Add a Comment</h3>
+<h3 class="comments-heading2">Add a Comment</h3>
 <div class="comments">
 	<div class="post-info">
 		<p>Please leave your comment below. If you'd like to be notified of my reply, please also send your comment as <a href="mailto:j.w.jolles@gmail.com">an email to me</a>. I will try to reply as soon as I can. Thanks!</p>
@@ -127,6 +127,11 @@
 	.comments-heading {
 		color: #139073;
 		font-size: 20px !important;
+	}
+	.comments-heading2 {
+		color: #139073;
+		font-size: 18px !important;
+		font-style: italic;
 	}
  .comment-item {
 	 position: relative;
