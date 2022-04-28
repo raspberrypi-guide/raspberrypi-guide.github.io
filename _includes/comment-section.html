@@ -41,14 +41,15 @@
 				return;
 			}
 
-			var verifiedAuthorTag = "";
+			var verifiedAuthorTag = "<div></div";
 			if (element.isAuthor === "TRUE") {
-				verifiedAuthorTag = "&nbsp;<div class="commentauthor">(Author)</div>";
+				verifiedAuthorTag = "&nbsp;<div class='commentauthor'>(Author)</div>";
 			};
 
 			var newItem = $(`
 				<div class="comment-item">
-					<p class="commenter-name">${validator.escape(element.name)}${verifiedAuthorTag}<small>${formatDate(element.timestamp)}</small></p>
+					${verifiedAuthorTag}
+					<p class="commenter-name">${validator.escape(element.name)}<small>${formatDate(element.timestamp)}</small></p>
 					<div>
 							<p>${validator.escape(element.comment).replace(new RegExp('\r?\n','g'), '<br />')}</p>
 					</div>
