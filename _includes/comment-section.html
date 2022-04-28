@@ -90,7 +90,7 @@
 		  body: encodeFormData({
 		  	"{{ site.comment-post-fields[0] }}" : thisPageUrl,
 		  	"{{ site.comment-post-fields[1] }}" : username,
-		  	"{{ site.comment-post-fields[3] }}" : comment
+		  	"{{ site.comment-post-fields[2] }}" : comment
 		  })
 		}).then(response => {
 			$("#comment-name").val('');
@@ -236,6 +236,9 @@
 	 height: 80px;
 	 resize: vertical;
 	 min-height: 80px;
+}
+.comment-item > .commentauthor {
+	background-color: green
 }
 </style>
 {% endif %}
