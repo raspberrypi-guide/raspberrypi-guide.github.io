@@ -32,25 +32,25 @@ First we need to install Homebrew. Enter the following command in the terminal:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-Now install oxfuse and ext4fuse
+Now install macfuse and ext4fuse
 
 ```
-brew install osxfuse --cask
+brew install macfuse
 brew install ext4fuse
 ```
 
-These steps may take a while..
+These steps may take a while.. Previously I used to recommend to install oxfuse but that now results in errors but macfuse works well.
 
-Now plug your Raspberry Pi SD card in your mac. To find the name of the disk, enter `diskutil list`. Here it will show you a name like `disk2s2`. To mount it create a mount point:
+Now plug your Raspberry Pi SD card in your mac. To find the name of the disk, enter `diskutil list`. Here it will show you a name like `disk2s2`. To mount it create a mount point. For example a folder called 'raspberry' in your users home folser:
 
 ```
-sudo mkdir /Volumes/raspberry
+sudo mkdir /Users/yourusername/raspberry
 ```
 
 And now mount the SD card with the following command:
 
 ```
-sudo ext4fuse /dev/disk2s2 /Users/me/RPi -o allow_other
+sudo ext4fuse /dev/disk2s2 /Users/yourusername/raspberry -o allow_other
 ```
 
 Now your SD card should be mounted on your Mac and give you access to all its files.
@@ -60,7 +60,7 @@ Now your SD card should be mounted on your Mac and give you access to all its fi
 To unmount again:
 
 ```
-sudo umount /Users/me/RPi
+sudo umount /Users/yourusername/raspberry
 ```
 
 ## Mount the Raspberry Pi SD card on Windows
