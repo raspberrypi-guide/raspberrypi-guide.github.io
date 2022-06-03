@@ -47,13 +47,11 @@ Finally, we can install OpenCV very simply using pip. Note that if you still hav
 pip install opencv-contrib-python
 ```
 
-However, before running above command, it is important to note that the latest version of OpenCV may not always be fully functional on the Raspberry Pi. Therefore I recommend to run the below command that installs the latest known working version. Here I use 4.1.0.25 but it could be already a newer stable version is available:
+However, before running above command, it is important to note that the latest version of OpenCV may not always be fully functional on the Raspberry Pi. Also its installation may take a very long time. Therefore I recommend to run the below command that installs the latest known working version. Here I use 4.5.3.56 but it could be that already a newer stable version is available:
 
 ```
-pip install opencv-contrib-python==4.1.0.25
+pip install opencv-python==4.5.3.56
 ```
-
-Note the installation itself can still take a while, so be patient..
 
 If you still get an error message such as *Could not find a version that satisfies the requirement opencv-contrib-python (from versions: ) No matching distribution found for opencv-contrib-python*, try the alternative to use `apt-get` instead of `pip`:
 
@@ -78,7 +76,7 @@ Python 3.7.3 (default, Dec 20 2020, 18:57:59)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import cv2
 >>> cv2.__version__
-'4.1.0'
+'4.5.3'
 ```
 You are done!
 
