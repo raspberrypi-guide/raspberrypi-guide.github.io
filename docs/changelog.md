@@ -20,6 +20,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 03/06/2022 For opencv installation page updated prerequisites command and added some solutions for common errors.
 - 28/04/2022 Removed contact page and reworded guestbook page for more general commenting
 - 28/04/2022 Fixed guestbook form page url not working and removed email contact form field
 - 21/02/2022 Extended mounting drive page to explain how to automount a network drive upon boot as well as the run-script-on-boot page to explain how the rc.local file can be used to wait until it is connected to the network
