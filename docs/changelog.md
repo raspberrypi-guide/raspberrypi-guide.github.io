@@ -20,6 +20,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 03/06/2022 For opencv installation page updated latest recommended version for quick install of opencv on raspberry pi
 - 03/06/2022 For the guide to mount the RPi SD cars I changed guide to use macfuse instead of oxfuse due to issues. Also fixed the example directory name, which was not consistent
 - 03/06/2022 For opencv installation page updated prerequisites command and added some solutions for common errors.
 - 28/04/2022 Removed contact page and reworded guestbook page for more general commenting
