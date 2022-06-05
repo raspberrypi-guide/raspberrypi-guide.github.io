@@ -20,6 +20,9 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 05/06/2022 Created special styling for my comment replies as website owner
+- 05/06/2022 Fixed javscript issue with showing wrong month in comments
+- 05/06/2022 For static ip page, added note about use of multiple DNS
 - 03/06/2022 For opencv installation page updated latest recommended version for quick install of opencv on raspberry pi
 - 03/06/2022 For the guide to mount the RPi SD cars I changed guide to use macfuse instead of oxfuse due to issues. Also fixed the example directory name, which was not consistent
 - 03/06/2022 For opencv installation page updated prerequisites command and added some solutions for common errors.
