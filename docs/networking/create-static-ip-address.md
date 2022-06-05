@@ -34,7 +34,7 @@ Determine if you want a static ip address over WiFi or Ethernet. The interfaces 
 ## Setting-up using the Desktop
 It is very simple to set up your static ethernet address. Simply right-click on the Wi-Fi icon in the menu bar (top-right on the left of the speaker icon) and select the `Wireless & Wired Network Settings`.
 
-Now click the empty dropdown menu and select the network interface you want to configure. Now for `IPv4 Address` enter your chosen ip address, for `Router` the IP address of the router. AS DNS Servers add `8.8.8.8`. Finally, click the `Disable IPv6` option.
+Now click the empty dropdown menu and select the network interface you want to configure. Now for `IPv4 Address` enter your chosen ip address, for `Router` the IP address of the router. AS DNS Servers add `8.8.8.8`. When wanting to add multiple DNSs make sure to add them one after another separate by a space. Finally, click the `Disable IPv6` option.
 
 ## Setting-up with the Terminal
 One can also set up a static IP-address via the terminal. For this we need to change the `dhcpcd.conf` file:
