@@ -19,7 +19,7 @@
 		let dateComponents = stringDate.split(' ');
 		let datePieces = dateComponents[0].split("/");
 		let timePieces = dateComponents[1].split(":");
-		var date = new Date(datePieces[2], datePieces[0], datePieces[1], timePieces[0], timePieces[1], timePieces[2]);
+		var date = new Date(datePieces[2], datePieces[0]-1, datePieces[1], timePieces[0], timePieces[1], timePieces[2]);
 		var dateOptions = { day: 'numeric', month: 'long', year: 'numeric'};
 		var timeOptions = { hour: 'numeric', minute: 'numeric' };
 		return `${date.toLocaleDateString("en-GB", dateOptions)} at ${date.toLocaleTimeString("en-GB", timeOptions)}`;
