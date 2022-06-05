@@ -41,13 +41,12 @@
 				return;
 			}
 
-			var verifiedAuthorTag = "<div></div";
+			var verifiedAuthorTag = "<div class="comment-item">";
 			if (element.isAuthor === "TRUE") {
-				verifiedAuthorTag = "&nbsp;<div class='commentauthor'>(Author)</div>";
+				verifiedAuthorTag = "<div class="comment-item-author">";
 			};
 
 			var newItem = $(`
-				<div class="comment-item">
 					${verifiedAuthorTag}
 					<p class="commenter-name">${validator.escape(element.name)}<small>${formatDate(element.timestamp)}</small></p>
 					<div>
@@ -144,6 +143,19 @@
 	 box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
 	 border-radius: 8px;
 }
+.comment-item-author {
+	 position: relative;
+	 padding: 0.5em 2.5em;
+	 font-family: "Source Sans Pro", sans-serif;
+	 width: 95%;
+	 margin-left:50px;
+	 box-shadow: 0px 0px 4px 4px ffa50070;
+	 border-radius: 8px;	
+}
+.comment-item-author > commenter-name {
+	color: #000000;
+	font-style:italic;
+}
  .comment-item:after {
 	 content: "";
 	 position: relative;
@@ -193,9 +205,8 @@
     margin-left: -1.4em;
     color: #959396;
     content: "";
-		display: none;
-	}
-
+    display: none;
+}
  .comments-form ul li input[type='submit'] {
 	 border: 0;
 	 border-radius: 8px;
@@ -242,9 +253,6 @@
 	 height: 80px;
 	 resize: vertical;
 	 min-height: 80px;
-}
-.comment-item > .commentauthor {
-	background-color: green
 }
 </style>
 {% endif %}
