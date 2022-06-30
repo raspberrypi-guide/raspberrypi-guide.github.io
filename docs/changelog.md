@@ -20,6 +20,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 30/06/2022 Added google analytics
 - 05/06/2022 Created special styling for my comment replies as website owner
 - 05/06/2022 Fixed javscript issue with showing wrong month in comments
 - 05/06/2022 For static ip page, added note about use of multiple DNS
