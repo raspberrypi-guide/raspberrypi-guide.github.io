@@ -57,7 +57,7 @@ At the end of the file, add the following to share the folder, giving the remote
 ```
 [pishare]
 path = /shared
-writable = yes
+writeable = yes
 browseable = yes
 create mask = 0777
 directory mask = 0777
@@ -87,8 +87,8 @@ To share the home folder and make it editable on Mac and Windows systems add the
 [pihome]
     comment = Pi Home
     path = /home/pi
-    browsable = yes
-    writable = yes
+    browseable = yes
+    writeable = yes
     force create mode = 0777
     force directory mode = 0777
     public = yes
