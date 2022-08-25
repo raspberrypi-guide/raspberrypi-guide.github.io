@@ -41,13 +41,7 @@ sudo apt-get install build-essential cmake pkg-config libjpeg-dev libtiff5-dev l
 ```
 
 ## Install OpenCV with pip
-Finally, we can install OpenCV very simply using pip. Note that if you still have python2.7 on your system and you are not working with a virtual environment with python3, you will need to type in `pip3` rather than `pip`:
-
-```
-pip install opencv-contrib-python
-```
-
-However, before running above command, it is important to note that the latest version of OpenCV may not always be fully functional on the Raspberry Pi. Also its installation may take a very long time. Therefore I recommend to run the below command that installs the latest known working version. Here I use 4.5.3.56 but it could be that already a newer stable version is available:
+Finally, we can install OpenCV very simply using pip. Note that if you still have python2.7 on your system and you are not working with a virtual environment with python3, you will need to type in `pip3` rather than `pip`. The standard command to install opencv is `pip install opencv-contrib-python` but don't immediately run this (!) as it will try to install the latest versio of OpenCV, which is not always fully functional on the Raspberry Pi. Furthermore, the installation may take a very long time. Therefore I recommend to run the below command that installs the latest known working version. Here I use 4.5.3.56 but it could be that already a newer stable version is available:
 
 ```
 pip install opencv-python==4.5.3.56
@@ -93,10 +87,16 @@ pip install --upgrade pip setuptools wheel
 
 now try again.
 
-If you have an issue running the latest version of opencv on Raspberry Pi, it can sometimes work to start python3 using the following command: 
+If you have an issue with importing cv2 but the installation finished succesfully, try:
+
+```
+sudo apt-get install python-opencv
+pip install -U numpy
+```
+
+If you have an issue running the latest version of opencv on Raspberry Pi, it can sometimes work to start python3 using the following command:
 ```
 LD_PRELOAD=/usr/lib/arm-linux-gnueabihf/libatomic.so.1 python3
 ```
 
 If you still have issues, please leave a commment!
-

@@ -20,6 +20,7 @@ Planned improvements and additions
 
 Overview of incorporated changes
 {: .label .label-green }
+- 25/09/2022 for the opencv installation page added clearer warning statement about pip install and added a solution to import error
 - 25/09/2022 Corrected spelling in code of filesharing with raspberry pi post
 - 30/06/2022 Added google analytics
 - 05/06/2022 Created special styling for my comment replies as website owner
