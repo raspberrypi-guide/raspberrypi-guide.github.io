@@ -38,7 +38,7 @@ A router will automatically handle assigning IP-addresses to each device on the 
 
 I tend to prefer to have a static network as it can make it easier to find and connect to your devices as upon restarting the whole system Raspberry Pi's may change (and swap) their IP-address. The first thing to do is set it up on your host computer.
 
-On a Mac, go to `System Preferences` > `Network` > `Built-in Ethernet` > `Advanced` where you can set up your network. On a windows PC, go to the `Network and Sharing Centre` in the control panel and select `Set up a new connection or network` and follow the steps. To set up a static IP-address on your Raspberry Pi, follow [these steps](create-static-ip-address.html).
+On a Mac, go to `System Preferences` > `Network` > `Built-in Ethernet` > `Advanced` where you can set up your network. On a windows PC, go to the `Network and Sharing Centre` in the control panel and select `Set up a new connection or network` and follow the steps. To set up a static IP-address on your Raspberry Pi, follow [these steps](set-up-static-ip-address.html).
 
 If you want to create a wireless network you will have to have a device that broadcasts Wi-Fi, such as a Wi-Fi router. How to set it up depends on the device and brand, but generally you will connect to the router by typing in its ip-address in the browser. The IP-address tends to be printed on the bottom of the router.
 
