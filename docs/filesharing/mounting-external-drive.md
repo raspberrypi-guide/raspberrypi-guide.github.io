@@ -61,7 +61,7 @@ Now open the fstab file:
 sudo nano /etc/fstab
 ```
 
-and add the following lines, replacing with your UUID and mount location:
+and add the following lines, replacing with your UUID, mount location and filesystem type (e.g. ntfs, fat32, ext4):
 
 ```
 UUID=D632-BE5F /mnt/exdisk fstype defaults,auto,users,rw,nofail 0 0
