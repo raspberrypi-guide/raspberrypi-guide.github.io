@@ -27,7 +27,7 @@ In general, it is recommended that beginners buy the Raspberry Pi with a micro S
 In the first years after its release, setting-up an SD-card with the Raspbian Operating System was a long and complicated process. Then a couple years ago it became a lot more straightforward by software like [Etcher](https://etcher.io){:target="_blank"}, which made it as simple as mounting the SD-card and downloading and installing from an OS image file (see below). In 2020 the Raspberry Pi Foundation released their own installer, which is now, in my opinion, the preferred way to install the Raspberry Pi Operating System.
 
 ## Using the Raspberry Pi Imager
-Download the Raspberry Pi installer from the ([raspberrypi.org/downloads/](raspberrypi.org/downloads/){:target="_blank"}) website, make sure it is properly installed, and launch the program.
+Download the Raspberry Pi installer from the ([raspberrypi.org/downloads/](https://raspberrypi.org/downloads/){:target="_blank"}) website, make sure it is properly installed, and launch the program.
 
 [![Raspberry Pi imager](/assets/images/raspberry-pi-imager.jpg?style=centerimgmed)](/assets/images/raspberry-pi-imager.jpg)
 
