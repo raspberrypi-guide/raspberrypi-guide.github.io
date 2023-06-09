@@ -55,7 +55,7 @@ static domain_name_servers= YOURGATEWAYIP
 replacing the words in capital by what is desired. Now save the file by pressing `ctrl+x` then `y` to exit.
 
 ## Prioritising internet interface
-When you are using multiple internet interfaces, such as Ethernet over Wifi, it is important to make sure the internet interface has priority over the other such that you get a working internet connection. To do so, we need to add a `metric` number to each, with the higher metric being prioritised first. Open the `dhcpcd.conf` file:
+When you are using multiple internet interfaces, such as Ethernet over Wifi, it is important to make sure the internet interface has priority over the other such that you get a working internet connection. To do so, we need to add a `metric` number to each, with the lower metric being prioritised first. Open the `dhcpcd.conf` file:
 
 ```
 sudo nano /etc/dhcpcd.conf
@@ -65,13 +65,13 @@ And add the metrics. For example:
 
 ```
 interface eth0
-metric 300
+metric 200
 static ip_address=192.168.0.40/24
 static routers=192.168.0.1
 static domain_name_servers=192.168.0.1
 
 interface wlan0
-metric 200
+metric 300
 ```
 
 Now finally reboot your Raspberry Pi for the changes to be incorporated:
