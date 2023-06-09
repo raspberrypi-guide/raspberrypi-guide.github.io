@@ -27,7 +27,7 @@ The level of security you need for your Raspberry Pi will strongly depend on how
 It is first of all important to ensure your system has the latest security fixes. This is as simple as keeping your version of Raspberry Pi OS  up-to-date. To do so, open a terminal window and enter:
 
 ```
-sudo apg-get update && sudo apt-get full-upgrade
+sudo apt-get update && sudo apt-get full-upgrade
 ```
 
 ## Change default password
